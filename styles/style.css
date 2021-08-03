@@ -573,12 +573,11 @@ body {
   margin-top: 246px;
 }
 
-.img-partners {
-  margin: 0 auto;
-}
 
-.img-partners img {
-  margin-right: 50px;
+
+.img-partners {
+  display: flex;
+  justify-content: space-between;
   margin-top: 320px;
 }
 .btn-header-block {
