@@ -375,7 +375,6 @@ body {
 }
 .benefit {
   display: flex;
-  margin-top: 650px;
   align-items: center;
   justify-content: center;
 }
