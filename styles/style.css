@@ -142,7 +142,7 @@ body {
   height: 60px;
 }
 .description-about {
-  margin-bottom: 160px;
+
   width: 290px;
   font-style: normal;
   font-weight: normal;
@@ -153,6 +153,7 @@ body {
 
 .btn-header-block {
   display: flex;
+  margin-top:160px;
   text-align: center;
   align-items: center;
 }
@@ -298,7 +299,6 @@ body {
   margin: 0 0 0 16px;
 }
 .summary {
-  margin-top: 264px;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -356,6 +356,7 @@ body {
   color: #333333;
   margin-top: 12px;
   width: 380px;
+  margin-bottom: 160px;
 }
 
 
