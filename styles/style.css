@@ -30,6 +30,8 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+
+/*                        HEADER                  */
 .background-image {
   background-image: url(./../assets/img/backgroundwomen.png);
   background-repeat: no-repeat;
@@ -148,6 +150,73 @@ body {
   line-height: 24px;
 }
 
+
+.btn-header-block {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.Btn-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0 0 0 52px;
+}
+.feature-header {
+  display: flex;
+  margin-top: 120px;
+}
+
+.feature-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 36px;
+  text-align: left;
+  color: #ffffff;
+}
+.feature-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 200px;
+}
+
+.feature-line {
+  height: 2px;
+  background-color:  #ffffff;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+
+/*                               HEADER                             */
+
+
+/*                     THREE ELEMENTS FEATURES           */
+
+.check-up-calculator {
+  display: flex;
+  align-items: center;
+}
+
+
+.name-about {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+
+/*                            CALCULATOR                             */
 .calculating_section {
   justify-content: space-between;
 }
@@ -207,6 +276,11 @@ body {
 }
 .up {
   margin-bottom: 85px;
+}
+.question-svg {
+  width: 16px;
+  height: 16px;
+  margin-left: 12px;
 }
 
 .pdf {
@@ -284,6 +358,26 @@ body {
   width: 380px;
 }
 
+
+
+/*                          CALCULATOR                          */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                        BTN SECTION                      */
 .Btn-section {
   display: flex;
   flex-direction: row;
@@ -302,6 +396,25 @@ body {
   color: #ffffff;
   border: none;
 }
+
+/*                        BTN SECTION                      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*               FIRST SIMPLE SECTION            */
 .h1-clinic {
   font-style: normal;
   font-weight: bold;
@@ -316,15 +429,14 @@ body {
   height: auto;
 }
 
-.health-for-everyone {
-  display: flex;
-  margin-bottom: 160px;
-}
 .clinic-line {
   border: 3px solid #ff9933;
   margin-top: 156px;
   width: 200px;
 }
+
+
+
 
 .number-clinic {
   margin-top: 24px;
@@ -345,7 +457,16 @@ body {
   color: #333333;
   width: 200px;
 }
+/*               FIRST SIMPLE SECTION            */
 
+
+
+
+
+
+
+
+/*              SECOND SIMPLE SECTION            */
 .description-clinic {
   font-style: normal;
   font-weight: normal;
@@ -373,6 +494,23 @@ body {
   margin-bottom: 322px;
   margin-top: 160px;
 }
+.row {
+  position: relative;
+}
+
+.image-clinic {
+  width: 100%;
+  height: auto;
+  margin-bottom: 360px;
+}
+/*              SECOND SIMPLE SECTION            */
+
+
+
+
+
+
+/*              BENEFIT           */
 .benefit {
   display: flex;
   align-items: center;
@@ -393,6 +531,18 @@ body {
   background: #ff9933;
   margin-right: 40px;
 }
+
+.img-partners {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 320px;
+}
+/*              BENEFIT           */
+
+
+
+
+/*             CHOSE SECTION      */
 .take-choice {
   margin-top: 160px;
   background-image: url(../assets/img/backgroundcta.png);
@@ -419,6 +569,14 @@ body {
   width: 210px !important;
   background-color: Transparent;
 }
+
+/*             CHOSE SECTION      */
+
+
+
+
+
+/*                    SLIDER       */
 
 .slider {
   display: flex;
@@ -492,7 +650,13 @@ body {
 .arrow-left {
   margin-right: 40px;
 }
+/*             SLIDER      */
 
+
+
+
+
+/*             FOOTER      */
 .right-footer {
   display: flex;
   margin-top: 230px;
@@ -571,82 +735,8 @@ body {
 .footer-date {
   margin-top: 246px;
 }
+/*             FOOTER      */
 
 
 
-.img-partners {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 320px;
-}
-.btn-header-block {
-  display: flex;
-  text-align: center;
-  align-items: center;
-}
 
-.Btn-text {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  margin: 0 0 0 52px;
-}
-.feature-header {
-  display: flex;
-  margin-top: 120px;
-}
-
-.feature-name {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 54px;
-  line-height: 36px;
-  text-align: left;
-  color: #ffffff;
-}
-.feature-description {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  width: 200px;
-}
-
-.feature-line {
-  border: 2px solid #ffffff;
-  margin-left: 28px;
-  margin-right: 28px;
-}
-
-.question-svg {
-  width: 16px;
-  height: 16px;
-  margin-left: 12px;
-}
-
-.check-up-calculator {
-  display: flex;
-  align-items: center;
-}
-
-.name-about {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #333333;
-}
-
-.row {
-  position: relative;
-}
-
-.image-clinic {
-  width: 100%;
-  height: auto;
-  margin-bottom: 160px;
-}
