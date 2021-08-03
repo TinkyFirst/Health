@@ -685,12 +685,7 @@ body {
   color: #333333;
 }
 
-.footer-line {
-  margin-top: 270px;
-  border: 2px solid #333333;
-  transform: rotate(-90deg);
-  width: 270px;
-}
+
 .footer-phone {
   display: flex;
   align-items: center;
@@ -698,7 +693,12 @@ body {
 .svg-footer {
   margin-right: 5px;
 }
-
+.footer-line {
+  margin-top: 270px;
+  border: 2px solid #333333;
+  transform: rotate(-90deg);
+  width: 270px;
+}
 .phone-footer {
   margin-right: 15px;
   font-style: normal;
@@ -739,5 +739,22 @@ body {
 /*             FOOTER      */
 
 
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 376px) {
+ .img-partners{
+   width: 30px;
+   margin: 0 auto;
+ }
+}
 
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
 
