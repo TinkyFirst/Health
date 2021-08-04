@@ -229,8 +229,7 @@ body {
   line-height: 24px;
   color: #333333;
 }
-.summary-block {
-}
+
 .prices {
   display: flex;
   justify-content: space-between;
@@ -741,7 +740,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
   .feature-item {
     display: flex;
