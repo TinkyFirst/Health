@@ -627,16 +627,14 @@ body {
   .btn-consulting-pc {
     padding: 12px 32px;
     border: 2px solid #ffffff;
-    box-sizing: border-box;
     border-radius: 54px;
-    display: flex;
-    float: right;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
     color: #ffffff;
     background-color: transparent;
+    width: 100%;
   }
 
   .offer {
@@ -646,6 +644,7 @@ body {
     line-height: 29px;
     text-transform: uppercase;
     color: #ffffff;
+    margin-top: 55px;
   }
   .header-name {
     font-style: normal;
@@ -677,22 +676,15 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
+    margin-bottom: 10px;
   }
+
   .Btn-text {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-    margin: 0 0 0 52px;
-  }
-  .Btn-text {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    margin: 0 0 0 52px;
     background-color: transparent;
     border: 2px solid #ffffff;
     box-sizing: border-box;
@@ -700,6 +692,47 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px 40px;
+  }
+  .feature-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 18px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .feature-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #ffffff;
+    width: 200px;
+  }
+  .feature-line {
+    height: 2px;
+    background-color: #ffffff;
+    margin-left: -10px;
+    margin-right: 0px;
+  }
+  .btn-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-header-block {
+    order: 2;
+  }
+  .feature-header {
+    order: 1;
+  }
+  .feature-header {
+    display: flex;
+  }
+  .line-second {
+    width: 100%;
+    border: 2px solid #ffffff;
+    margin-top: 13px;
+    margin-bottom: 19px;
   }
 }
 
@@ -712,6 +745,7 @@ body {
     line-height: 80px;
     text-transform: uppercase;
     color: #ffffff;
+    margin-top: 78px;
   }
 
   .phone {
@@ -736,16 +770,13 @@ body {
   .btn-consulting-pc {
     padding: 12px 32px;
     border: 2px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 54px;
-    display: flex;
-    float: right;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
     background-color: transparent;
+    border-radius: 54px;
   }
 
   .header-name {
@@ -777,6 +808,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
+    width: 210px;
+    margin-right: 52px;
   }
   .Btn-text {
     font-style: normal;
@@ -784,8 +817,36 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-    margin: 0 0 0 52px;
     background-color: transparent;
     border: none;
+    width: 210px;
   }
+}
+.btn-header-block {
+  order: 2;
+}
+.feature-header {
+  order: 1;
+}
+.feature-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 36px;
+  text-align: left;
+  color: #ffffff;
+}
+.feature-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  width: 200px;
+}
+.feature-line {
+  height: 2px;
+  background-color: #ffffff;
+  margin-left: 28px;
+  margin-right: 28px;
 }
