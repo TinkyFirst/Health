@@ -734,6 +734,32 @@ body {
     margin-top: 13px;
     margin-bottom: 19px;
   }
+  .features-adv {
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .feature-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .img-about {
+    margin: 0;
+  }
+
+  .name-about {
+    text-align: center;
+  }
+
+  .description-about {
+    margin: 0;
+    text-align: center;
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
