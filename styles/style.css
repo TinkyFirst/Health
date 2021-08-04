@@ -34,8 +34,9 @@ body {
 .background-image {
   background-image: url(./../assets/img/backgroundwomen.png);
   background-repeat: no-repeat;
-  height: 902px;
+  height: 905px;
   width: 100%;
+  background-size: cover;
 }
 
 .header-menu {
@@ -80,8 +81,6 @@ body {
 }
 
 .btn-header-block {
-  
-  margin-top: 160px;
   text-align: center;
   align-items: center;
 }
@@ -613,6 +612,7 @@ body {
     text-decoration: none;
     margin-left: 16px;
     margin-right: 17px;
+    color: white;
   }
 
   .buy-number {
@@ -781,6 +781,7 @@ body {
     text-decoration: none;
     margin-left: 16px;
     margin-right: 17px;
+    color: white;
   }
 
   .buy-number {
@@ -827,8 +828,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px 40px;
-    background: blue;
-    /* background: #faff17; */
+    background: #faff17;
     border-radius: 54px;
     font-weight: bold;
     font-size: 16px;
@@ -850,7 +850,7 @@ body {
 
   .btn-header-block {
     display: flex;
-    order: 2; 
+    order: 2;
   }
   .feature-header {
     order: 1;
@@ -876,5 +876,8 @@ body {
     background-color: #ffffff;
     margin-left: 28px;
     margin-right: 28px;
+  }
+  .navbawheader {
+    display: flex;
   }
 }
