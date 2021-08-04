@@ -30,12 +30,12 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
-
 /*                        HEADER                  */
 .background-image {
   background-image: url(./../assets/img/backgroundwomen.png);
   background-repeat: no-repeat;
   height: 902px;
+  width: 100%;
 }
 
 .header-menu {
@@ -49,58 +49,12 @@ body {
   height: 28px;
   vertical-align: middle;
 }
-.phone {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  color: #ffffff;
-  text-decoration: none;
-  margin-left: 16px;
-  margin-right: 17px;
-}
-.btn-consulting-pc {
-  padding: 12px 32px;
-  border: 2px solid #ffffff;
-  box-sizing: border-box;
-  border-radius: 54px;
-  display: flex;
-  float: right;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  background-color: transparent;
-}
-.buy-number {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  text-decoration: none;
-}
+
 .line {
   width: 100%;
   border: 2px solid #ffffff;
 }
 
-.offer {
-  padding-top: 78px;
-  font-size: 68px;
-  line-height: 80px;
-  text-transform: uppercase;
-  text-align: left;
-  color: #ffffff;
-}
-.header-name {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-}
 .info {
   font-style: normal;
   font-weight: normal;
@@ -110,30 +64,6 @@ body {
   padding-top: 20px;
   display: flex;
 }
-.header-description {
-  margin-left: 52px;
-  margin-bottom: 52px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-}
-
-.Btn-logic {
-  border: none;
-  display: block;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 40px;
-  background: #faff17;
-  border-radius: 54px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333333;
-}
 
 .img-about {
   margin-top: 160px;
@@ -142,7 +72,6 @@ body {
   height: 60px;
 }
 .description-about {
-
   width: 290px;
   font-style: normal;
   font-weight: normal;
@@ -150,10 +79,9 @@ body {
   line-height: 24px;
 }
 
-
 .btn-header-block {
   display: flex;
-  margin-top:160px;
+  margin-top: 160px;
   text-align: center;
   align-items: center;
 }
@@ -190,14 +118,12 @@ body {
 
 .feature-line {
   height: 2px;
-  background-color:  #ffffff;
+  background-color: #ffffff;
   margin-left: 28px;
   margin-right: 28px;
 }
 
-
 /*                               HEADER                             */
-
 
 /*                     THREE ELEMENTS FEATURES           */
 
@@ -205,7 +131,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 
 .name-about {
   font-style: normal;
@@ -215,7 +140,6 @@ body {
   text-transform: uppercase;
   color: #333333;
 }
-
 
 /*                            CALCULATOR                             */
 .calculating_section {
@@ -359,24 +283,7 @@ body {
   margin-bottom: 160px;
 }
 
-
-
 /*                          CALCULATOR                          */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*                        BTN SECTION                      */
 .Btn-section {
@@ -400,21 +307,6 @@ body {
 
 /*                        BTN SECTION                      */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*               FIRST SIMPLE SECTION            */
 .h1-clinic {
   font-style: normal;
@@ -436,9 +328,6 @@ body {
   width: 200px;
 }
 
-
-
-
 .number-clinic {
   margin-top: 24px;
   font-style: normal;
@@ -459,13 +348,6 @@ body {
   width: 200px;
 }
 /*               FIRST SIMPLE SECTION            */
-
-
-
-
-
-
-
 
 /*              SECOND SIMPLE SECTION            */
 .description-clinic {
@@ -506,11 +388,6 @@ body {
 }
 /*              SECOND SIMPLE SECTION            */
 
-
-
-
-
-
 /*              BENEFIT           */
 .benefit {
   display: flex;
@@ -539,9 +416,6 @@ body {
   margin-top: 320px;
 }
 /*              BENEFIT           */
-
-
-
 
 /*             CHOSE SECTION      */
 .take-choice {
@@ -572,10 +446,6 @@ body {
 }
 
 /*             CHOSE SECTION      */
-
-
-
-
 
 /*                    SLIDER       */
 
@@ -653,10 +523,6 @@ body {
 }
 /*             SLIDER      */
 
-
-
-
-
 /*             FOOTER      */
 .right-footer {
   display: flex;
@@ -684,7 +550,6 @@ body {
   line-height: 24px;
   color: #333333;
 }
-
 
 .footer-phone {
   display: flex;
@@ -738,24 +603,189 @@ body {
 }
 /*             FOOTER      */
 
+@media (max-width: 575px) {
+  .phone {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 17px;
+  }
 
-/*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 376px) {
-.offer{
-  font-size:12px;
-}
+  .buy-number {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 28px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .btn-consulting-pc {
+    padding: 12px 32px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 54px;
+    display: flex;
+    float: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: transparent;
+  }
 
-
-/*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {}
-
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-  .offer{
-
+  .offer {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .header-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  .header-description {
+    margin-left: 52px;
+    margin-bottom: 52px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  .Btn-logic {
+    border: none;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background: #faff17;
+    border-radius: 54px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+  }
+  .Btn-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 0 0 0 52px;
+  }
+  .Btn-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 0 0 0 52px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 54px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
   }
 }
 
-/*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 576px) {
+  .offer {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 
+  .phone {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 17px;
+  }
+
+  .buy-number {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .btn-consulting-pc {
+    padding: 12px 32px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 54px;
+    display: flex;
+    float: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: transparent;
+  }
+
+  .header-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .header-description {
+    margin-left: 52px;
+    margin-bottom: 52px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .Btn-logic {
+    border: none;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background: #faff17;
+    border-radius: 54px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+  }
+  .Btn-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 0 0 0 52px;
+    background-color: transparent;
+    border: none;
+  }
+}
