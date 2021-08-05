@@ -776,6 +776,9 @@ body {
     height: auto;
     margin-bottom: 100px;
   }
+  .check-up-img{
+    width: 100%;
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -998,5 +1001,8 @@ body {
     width: 100%;
     height: auto;
     margin-bottom: 360px;
+  }
+  .check-up-img{
+    width: 100%;
   }
 }
