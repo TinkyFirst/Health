@@ -441,15 +441,7 @@ body {
 
 
 
-.link-footer {
-  margin-right: 75px;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333333;
-}
+
 
 .footer-phone {
   display: flex;
@@ -709,7 +701,6 @@ body {
   .footer-links{
     order:2;
     margin-bottom: 160px;
-
   }
   .footer-button{
     order:1;
@@ -768,6 +759,7 @@ body {
     color: #333333;
     text-decoration: none;
     margin-left: 100px;
+
   }
   .description-clinic {
     font-style: normal;
@@ -783,6 +775,15 @@ body {
     line-height: 80px;
     text-transform: uppercase;
     color: #333333;
+  }
+  .link-footer {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-right: 130px;
   }
 }
 
@@ -1036,6 +1037,7 @@ body {
     color: #333333;
     text-decoration: none;
     display: flex;
+
   }
   .description-clinic {
     font-style: normal;
@@ -1055,5 +1057,20 @@ body {
     line-height: 80px;
     text-transform: uppercase;
     color: #333333;
+  }
+.footer-links{
+
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+  .link-footer {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-right: 130px;
   }
 }
