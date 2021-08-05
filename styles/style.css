@@ -286,14 +286,7 @@ body {
 /*                        BTN SECTION                      */
 
 /*               FIRST SIMPLE SECTION            */
-.h1-clinic {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 68px;
-  line-height: 80px;
-  text-transform: uppercase;
-  color: #333333;
-}
+
 
 .image-health {
   width: 100%;
@@ -319,14 +312,7 @@ body {
 /*               FIRST SIMPLE SECTION            */
 
 /*              SECOND SIMPLE SECTION            */
-.description-clinic {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333333;
-  width: 470px;
-}
+
 
 .secondary {
   margin-left: 57px;
@@ -420,9 +406,7 @@ body {
 }
 
 
-.slider-description {
-  width: 480px;
-}
+
 .Day {
   font-style: normal;
   font-weight: bold;
@@ -455,15 +439,7 @@ body {
   justify-content: flex-end;
 }
 
-.links {
-  margin-top: 230px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333333;
-  text-decoration: none;
-}
+
 
 .link-footer {
   margin-right: 75px;
@@ -501,21 +477,7 @@ body {
   color: #333333;
   margin: 0;
 }
-.btn-footer {
-  justify-content: flex-end;
-  float: right;
-  margin-right: 80px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333333;
-  border: 2px solid #333333;
-  box-sizing: border-box;
-  border-radius: 54px;
-  padding: 12px 32px;
-  background-color: transparent;
-}
+
 
 
 /*             FOOTER      */
@@ -541,7 +503,7 @@ body {
     color: #ffffff;
     text-decoration: none;
   }
-  .btn-consulting-pc {
+  .btn-consulting-mobile {
     padding: 12px 32px;
     border: 2px solid #ffffff;
     font-style: normal;
@@ -779,6 +741,49 @@ body {
   .check-up-img{
     width: 100%;
   }
+  .btn-consulting-pc{
+    display:none;
+  }
+  .btn-footer {
+    justify-content: flex-end;
+    margin-right: 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    border: 2px solid #333333;
+    box-sizing: border-box;
+    border-radius: 54px;
+    padding: 12px 32px;
+    background-color: transparent;
+    margin-top:70px;
+  }
+  .links {
+    margin-top: 230px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+    margin-left: 100px;
+  }
+  .description-clinic {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+  }
+  .h1-clinic {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 41px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #333333;
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -811,7 +816,9 @@ body {
     color: #ffffff;
     text-decoration: none;
   }
-
+  .btn-consulting-mobile{
+    display:none;
+  }
   .btn-consulting-pc {
     padding: 12px 32px;
     border: 2px solid #ffffff;
@@ -1004,5 +1011,48 @@ body {
   }
   .check-up-img{
     width: 100%;
+  }
+  .btn-footer {
+    justify-content: flex-end;
+    float: right;
+    margin-right: 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    border: 2px solid #333333;
+    box-sizing: border-box;
+    border-radius: 54px;
+    padding: 12px 32px;
+    background-color: transparent;
+  }
+  .links {
+    margin-top: 230px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+  }
+  .description-clinic {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    width: 470px;
+  }
+  .slider-description {
+    width: 480px;
+  }
+  .h1-clinic {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #333333;
   }
 }
