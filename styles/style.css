@@ -152,7 +152,6 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #333333;
-  margin-top: 160px;
 }
 
 .calculator-line {
@@ -161,9 +160,7 @@ body {
   margin-bottom: 32px;
 }
 
-.calculator-info {
-  display: flex;
-}
+
 .right {
   align-items: center;
   margin-left: auto;
@@ -227,6 +224,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #333333;
+  margin-top: 85px;
 }
 
 .prices {
@@ -612,7 +610,6 @@ body {
     text-decoration: none;
     margin-left: 16px;
     margin-right: 17px;
-    color: white;
   }
 
   .buy-number {
@@ -713,7 +710,7 @@ body {
     height: 2px;
     background-color: #ffffff;
     margin-left: -10px;
-    margin-right: 0px;
+    margin-right: 0;
   }
   .btn-header {
     display: flex;
@@ -759,6 +756,12 @@ body {
     margin: 0;
     text-align: center;
   }
+  .calculating_section {
+    padding-top: 320px;
+  }
+  .calculator-info {
+    display: block;
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -772,7 +775,6 @@ body {
     color: #ffffff;
     margin-top: 78px;
   }
-
   .phone {
     font-style: normal;
     font-weight: bold;
@@ -877,7 +879,14 @@ body {
     margin-left: 28px;
     margin-right: 28px;
   }
-  .navbawheader {
+  .nav-bar-header {
+    display: flex;
+  }
+
+  .calculating_section {
+    padding-top: 320px;
+  }
+  .calculator-info {
     display: flex;
   }
 }
