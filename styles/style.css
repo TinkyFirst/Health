@@ -327,9 +327,7 @@ body {
   color: #333333;
   width: 470px;
 }
-.clinic-text {
-  margin-left: 57px;
-}
+
 .secondary {
   margin-left: 57px;
   width: 490px;
@@ -459,7 +457,6 @@ body {
 
 .links {
   margin-top: 230px;
-  display: flex;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -749,6 +746,7 @@ body {
   }
   .footer-links{
     order:2;
+    margin-bottom: 160px;
 
   }
   .footer-button{
@@ -977,6 +975,9 @@ body {
     line-height: 36px;
     color: #333333;
     width: 600px;
+  }
+  .footer{
+    display: flex;
   }
   .benefit {
     display: flex;
