@@ -34,32 +34,12 @@ body {
 }
 
 /*                        HEADER                  */
-.background-image {
-  background-image: url(./../assets/img/backgroundwomen.png);
-  background-repeat: no-repeat;
-  height: 905px;
-  width: 100%;
-  background-size: cover;
-}
 
 
 
-.phone-icon {
-  text-align: center;
-  width: 22px;
-  height: 28px;
-  vertical-align: middle;
-}
 
-.info {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  padding-top: 20px;
-  display: flex;
-}
+
+
 
 .img-about {
   margin-top: 160px;
@@ -90,10 +70,7 @@ body {
   margin: 0 0 0 52px;
 }
 
-.feature-header {
-  display: flex;
-  margin-top: 120px;
-}
+
 
 .feature-name {
   font-style: normal;
@@ -483,6 +460,14 @@ body {
 /*             FOOTER      */
 
 @media (max-width: 575px) {
+  .background-image {
+    background-image: url(./../assets/img/backgroundwomen.png);
+    background-repeat: no-repeat;
+    height: 620px;
+    width: 100%;
+    background-size: cover;
+  }
+
   .phone {
     font-style: normal;
     font-weight: bold;
@@ -492,14 +477,14 @@ body {
     color: #ffffff;
     text-decoration: none;
     margin-left: 16px;
-    margin-right: 17px;
+    margin-right: 80px;
   }
 
   .buy-number {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 28px;
+    line-height: 24px;
     color: #ffffff;
     text-decoration: none;
   }
@@ -521,11 +506,17 @@ body {
   .offer {
     font-style: normal;
     font-weight: bold;
-    font-size: 43px;
-    line-height: 42px;
+    font-size: 28px;
+    line-height: 28px;
     text-transform: uppercase;
     color: #ffffff;
-    margin-top: 55px;
+    margin-top: 40px;
+  }
+  .phone-icon {
+    height: 17px;
+    width: 12px;
+
+
   }
 
   .header-name {
@@ -534,19 +525,30 @@ body {
     font-size: 12px;
     line-height: 18px;
     color: #ffffff;
+    margin-right: 24px;
+    margin-bottom: 0;
   }
 
   .header-description {
-    margin-left: 52px;
-    margin-bottom: 52px;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
     color: #ffffff;
+    margin-bottom: 0;
   }
-
+  .info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-top: 20px;
+    display: flex;
+    padding-left:0;
+  }
   .Btn-logic {
+    margin-top: 35px;
     border: none;
     display: block;
     flex-direction: row;
@@ -560,7 +562,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .Btn-text {
@@ -582,16 +584,15 @@ body {
   .feature-name {
     font-style: normal;
     font-weight: bold;
-    font-size: 35px;
-    line-height: 18px;
-    text-align: left;
+    font-size: 20px;
+    line-height: 25px;
     color: #ffffff;
   }
 
   .feature-description {
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 18px;
     color: #ffffff;
     width: 200px;
@@ -615,10 +616,12 @@ body {
 
   .feature-header {
     order: 1;
+    display:flex;
   }
 
   .feature-header {
     display: flex;
+    margin-top: 32px;
   }
 
   .line-second {
@@ -870,6 +873,19 @@ body {
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 576px) {
+  .background-image {
+    background-image: url(./../assets/img/backgroundwomen.png);
+    background-repeat: no-repeat;
+    height: 905px;
+    width: 100%;
+    background-size: cover;
+  }
+  .phone-icon {
+    text-align: center;
+    width: 22px;
+    height: 28px;
+    vertical-align: middle;
+  }
   .offer {
     font-style: normal;
     font-weight: bold;
@@ -878,6 +894,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     margin-top: 78px;
+    width: 100%;
   }
 
   .phone {
@@ -971,6 +988,8 @@ body {
 
   .feature-header {
     order: 1;
+    display: flex;
+    margin-top: 100px;
   }
 
   .feature-name {
@@ -1205,5 +1224,14 @@ body {
     margin-top: 12px;
     width: 380px;
     margin-bottom: 160px;
+  }
+  .info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-top: 20px;
+    display: flex;
   }
 }
