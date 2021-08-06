@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 h1,
 div,
 p,
@@ -9,6 +10,7 @@ button,
 a {
   font-family: Euclid Square, serif;
 }
+
 @font-face {
   font-family: "Euclid Square";
   src: url("../assets/font/EuclidSquare-Bold.woff2") format("woff2"),
@@ -16,6 +18,7 @@ a {
   font-weight: 700;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Euclid Square";
   src: url("../assets/font/EuclidSquare-Medium.woff2") format("woff2"),
@@ -64,6 +67,7 @@ body {
   width: 60px;
   height: 60px;
 }
+
 .description-about {
   width: 290px;
   font-style: normal;
@@ -85,6 +89,7 @@ body {
   color: #ffffff;
   margin: 0 0 0 52px;
 }
+
 .feature-header {
   display: flex;
   margin-top: 120px;
@@ -98,6 +103,7 @@ body {
   text-align: left;
   color: #ffffff;
 }
+
 .feature-description {
   font-style: normal;
   font-weight: normal;
@@ -157,6 +163,7 @@ body {
   align-items: center;
   margin-left: auto;
 }
+
 .name-calculator {
   font-style: normal;
   font-weight: bold;
@@ -187,9 +194,11 @@ body {
 .calculator-description-block {
   display: flex;
 }
+
 .up {
   margin-bottom: 85px;
 }
+
 .question-svg {
   width: 16px;
   height: 16px;
@@ -210,6 +219,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .yellow-price {
   font-style: normal;
   font-weight: bold;
@@ -225,6 +235,7 @@ body {
   line-height: 80px;
   color: #ff9933;
 }
+
 .black-price {
   font-style: normal;
   font-weight: bold;
@@ -234,6 +245,7 @@ body {
   color: rgba(51, 51, 51, 0.3);
   align-items: flex-end;
 }
+
 .black-description {
   font-style: normal;
   font-weight: bold;
@@ -247,16 +259,7 @@ body {
   border: 1px solid #333333;
   margin-top: 40px;
 }
-.summary-description {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
-  color: #333333;
-  margin-top: 12px;
-  width: 380px;
-  margin-bottom: 160px;
-}
+
 
 /*                          CALCULATOR                          */
 
@@ -327,6 +330,7 @@ body {
   margin-bottom: 322px;
   margin-top: 160px;
 }
+
 .row {
   position: relative;
 }
@@ -349,6 +353,7 @@ body {
   /*justify-content: space-between;*/
   margin-top: 320px;
 }
+
 /*              BENEFIT           */
 
 /*             CHOSE SECTION      */
@@ -392,12 +397,15 @@ body {
 .day1 {
   border: 2px solid #ff9933;
 }
+
 .day2 {
   border: 2px solid rgba(51, 51, 51, 0.05);
 }
+
 .day3 {
   border: 2px solid rgba(51, 51, 51, 0.05);
 }
+
 .day4 {
   border: 2px solid rgba(51, 51, 51, 0.05);
 }
@@ -427,6 +435,7 @@ body {
 .arrow-left {
   margin-right: 40px;
 }
+
 /*             SLIDER      */
 
 /*             FOOTER      */
@@ -444,6 +453,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .svg-footer {
   margin-right: 5px;
 }
@@ -458,6 +468,7 @@ body {
   text-decoration: none;
   color: #333333;
 }
+
 .callback {
   font-style: normal;
   font-weight: normal;
@@ -492,9 +503,10 @@ body {
     color: #ffffff;
     text-decoration: none;
   }
+
   .btn-consulting-mobile {
     padding: 12px 32px;
-    border:none;
+    border: none;
     border-top: 2px solid #ffffff;
     border-bottom: 2px solid #ffffff;
     font-style: normal;
@@ -515,6 +527,7 @@ body {
     color: #ffffff;
     margin-top: 55px;
   }
+
   .header-name {
     font-style: normal;
     font-weight: normal;
@@ -522,6 +535,7 @@ body {
     line-height: 18px;
     color: #ffffff;
   }
+
   .header-description {
     margin-left: 52px;
     margin-bottom: 52px;
@@ -531,6 +545,7 @@ body {
     line-height: 18px;
     color: #ffffff;
   }
+
   .Btn-logic {
     border: none;
     display: block;
@@ -563,6 +578,7 @@ body {
     padding: 20px 40px;
     margin: 0;
   }
+
   .feature-name {
     font-style: normal;
     font-weight: bold;
@@ -571,6 +587,7 @@ body {
     text-align: left;
     color: #ffffff;
   }
+
   .feature-description {
     font-style: normal;
     font-weight: normal;
@@ -579,25 +596,31 @@ body {
     color: #ffffff;
     width: 200px;
   }
+
   .feature-line {
     height: 2px;
     background-color: #ffffff;
     margin-left: -10px;
     margin-right: 0;
   }
+
   .btn-header {
     display: flex;
     flex-direction: column;
   }
+
   .btn-header-block {
     order: 2;
   }
+
   .feature-header {
     order: 1;
   }
+
   .feature-header {
     display: flex;
   }
+
   .line-second {
     width: 100%;
     height: 2px;
@@ -606,6 +629,7 @@ body {
     margin-bottom: 10px;
 
   }
+
   .features-adv {
     padding-top: 160px;
     display: flex;
@@ -613,12 +637,14 @@ body {
     justify-content: center;
     align-items: center;
   }
+
   .feature-item {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
   }
+
   .img-about {
     margin: 0;
   }
@@ -631,12 +657,15 @@ body {
     margin: 0;
     text-align: center;
   }
+
   .calculating_section {
     padding-top: 320px;
   }
+
   .calculator-info {
     display: block;
   }
+
   .line {
     width: 100%;
     height: 2px;
@@ -644,6 +673,7 @@ body {
 
     display: none;
   }
+
   .pdf-mobile {
     display: flex;
     align-items: center;
@@ -655,57 +685,72 @@ body {
     color: #333333;
     margin-bottom: 160px;
   }
+
   .pdf-mobile p {
     margin: 0 0 0 16px;
   }
-  .pdf-pc{
+
+  .pdf-pc {
     display: none;
   }
+
   .slider {
     margin-bottom: 300px;
   }
+
   .Day {
     text-align: center;
     padding: 12px 24px;
   }
-  .slider-info{
+
+  .slider-info {
     display: flex;
     flex-direction: column;
   }
+
   .slider-text {
-    order:1;
+    order: 1;
   }
+
   .block-day {
     margin-top: 67px;
     align-items: center;
     display: flex;
-    order:2;
+    order: 2;
   }
+
   .arrow {
-   display: none;
+    display: none;
   }
+
   .slider-name {
     margin-top: 40px;
     margin-bottom: 40px;
   }
+
   .footer-line {
-   display: none;
+    display: none;
   }
+
   .footer-date {
-    display:none;
+    display: none;
   }
-  .footer{
+
+  .footer {
     display: flex;
     flex-direction: column;
   }
-  .footer-links{
-    order:2;
+
+  .footer-links {
+    order: 2;
     margin-bottom: 160px;
   }
-  .footer-button{
-    order:1;
+
+  .footer-button {
+    order: 1;
 
   }
+
   .benefit {
     display: flex;
     align-items: center;
@@ -713,6 +758,7 @@ body {
     margin-top: 320px;
     align-content: center;
   }
+
   .number-clinic-description {
     margin-top: 4px;
     font-style: normal;
@@ -724,17 +770,21 @@ body {
     width: 200px;
     margin-bottom: 320px;
   }
+
   .image-clinic {
     width: 100%;
     height: auto;
     margin-bottom: 100px;
   }
-  .check-up-img{
+
+  .check-up-img {
     width: 100%;
   }
-  .btn-consulting-pc{
-    display:none;
+
+  .btn-consulting-pc {
+    display: none;
   }
+
   .btn-footer {
     justify-content: flex-end;
     margin-right: 80px;
@@ -748,8 +798,10 @@ body {
     border-radius: 54px;
     padding: 12px 32px;
     background-color: transparent;
-    margin-top:70px;
+    margin: 70px 0 0 0;
+
   }
+
   .links {
     margin-top: 230px;
     font-style: normal;
@@ -762,6 +814,7 @@ body {
     justify-content: space-between;
 
   }
+
   .description-clinic {
     font-style: normal;
     font-weight: normal;
@@ -769,6 +822,7 @@ body {
     line-height: 24px;
     color: #333333;
   }
+
   .h1-clinic {
     font-style: normal;
     font-weight: bold;
@@ -778,6 +832,7 @@ body {
     color: #333333;
     margin-bottom: 30px;
   }
+
   .link-footer {
     text-decoration: none;
     font-style: normal;
@@ -786,17 +841,30 @@ body {
     line-height: 24px;
     color: #333333;
   }
-.header-navigation{
-  padding: 0;
-}
-.container-test{
-  padding:0;
-}
+
+  .header-navigation {
+    padding: 0;
+  }
+
+  .container-test {
+    padding: 0;
+  }
+
   .header-menu {
     display: flex;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .summary-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    margin-top: 12px;
+    margin-bottom: 160px;
   }
 }
 
@@ -811,6 +879,7 @@ body {
     color: #ffffff;
     margin-top: 78px;
   }
+
   .phone {
     font-style: normal;
     font-weight: bold;
@@ -830,9 +899,11 @@ body {
     color: #ffffff;
     text-decoration: none;
   }
-  .btn-consulting-mobile{
-    display:none;
+
+  .btn-consulting-mobile {
+    display: none;
   }
+
   .btn-consulting-pc {
     padding: 12px 32px;
     border: 2px solid #ffffff;
@@ -854,6 +925,7 @@ body {
     line-height: 24px;
     color: #ffffff;
   }
+
   .header-description {
     margin-left: 52px;
     margin-bottom: 52px;
@@ -863,6 +935,7 @@ body {
     line-height: 24px;
     color: #ffffff;
   }
+
   .Btn-logic {
     border: none;
     display: block;
@@ -879,6 +952,7 @@ body {
     width: 210px;
     margin-right: 52px;
   }
+
   .Btn-text {
     font-style: normal;
     font-weight: bold;
@@ -894,9 +968,11 @@ body {
     display: flex;
     order: 2;
   }
+
   .feature-header {
     order: 1;
   }
+
   .feature-name {
     font-style: normal;
     font-weight: bold;
@@ -905,6 +981,7 @@ body {
     text-align: left;
     color: #ffffff;
   }
+
   .feature-description {
     font-style: normal;
     font-weight: normal;
@@ -913,12 +990,14 @@ body {
     color: #ffffff;
     width: 200px;
   }
+
   .feature-line {
     height: 2px;
     background-color: #ffffff;
     margin-left: 28px;
     margin-right: 28px;
   }
+
   .nav-bar-header {
     display: flex;
   }
@@ -926,14 +1005,17 @@ body {
   .calculating_section {
     padding-top: 320px;
   }
+
   .calculator-info {
     display: flex;
   }
+
   .line {
     width: 100%;
     height: 2px;
     background-color: #ffffff;
   }
+
   .pdf-pc {
     display: flex;
     align-items: center;
@@ -945,42 +1027,52 @@ body {
     color: #333333;
     margin-bottom: 160px;
   }
+
   .pdf-pc p {
     margin: 0 0 0 16px;
   }
-  .pdf-mobile{
+
+  .pdf-mobile {
     display: none;
   }
-  .test-header{
+
+  .test-header {
     display: flex;
     justify-content: space-between;
   }
+
   .slider {
     display: flex;
     margin-bottom: 300px;
     align-content: space-between;
   }
+
   .Day {
     text-align: center;
     padding: 6px 40px;
   }
+
   .slider-text {
     float: right;
   }
+
   .block-day {
     margin-top: 67px;
     align-items: center;
     display: flex;
     justify-content: flex-end;
   }
+
   .arrow {
     color: black;
     margin-top: 175px;
   }
+
   .slider-name {
     margin-top: 100px;
     margin-bottom: 28px;
   }
+
   .footer-line {
     margin-top: 270px;
     height: 2px;
@@ -992,6 +1084,7 @@ body {
   .footer-date {
     margin-top: 246px;
   }
+
   .benefit-text {
     font-style: normal;
     font-weight: 500;
@@ -1000,14 +1093,17 @@ body {
     color: #333333;
     width: 600px;
   }
-  .footer{
+
+  .footer {
     display: flex;
   }
+
   .benefit {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   .number-clinic-description {
     margin-top: 4px;
     font-style: normal;
@@ -1018,14 +1114,17 @@ body {
     color: #333333;
     width: 200px;
   }
+
   .image-clinic {
     width: 100%;
     height: auto;
     margin-bottom: 360px;
   }
-  .check-up-img{
+
+  .check-up-img {
     width: 100%;
   }
+
   .btn-footer {
     justify-content: flex-end;
     float: right;
@@ -1041,6 +1140,7 @@ body {
     padding: 12px 32px;
     background-color: transparent;
   }
+
   .links {
     margin-top: 230px;
     font-style: normal;
@@ -1053,6 +1153,7 @@ body {
     justify-content: space-between;
 
   }
+
   .description-clinic {
     font-style: normal;
     font-weight: normal;
@@ -1061,9 +1162,11 @@ body {
     color: #333333;
     width: 470px;
   }
+
   .slider-description {
     width: 480px;
   }
+
   .h1-clinic {
     font-style: normal;
     font-weight: bold;
@@ -1073,10 +1176,12 @@ body {
     color: #333333;
     width: 480px;
   }
-.footer-links{
 
-  width: 400px;
-}
+  .footer-links {
+
+    width: 400px;
+  }
+
   .link-footer {
     text-decoration: none;
     font-style: normal;
@@ -1085,8 +1190,20 @@ body {
     line-height: 24px;
     color: #333333;
   }
+
   .header-menu {
     display: flex;
     align-items: center;
+  }
+
+  .summary-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    margin-top: 12px;
+    width: 380px;
+    margin-bottom: 160px;
   }
 }
