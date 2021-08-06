@@ -14,15 +14,14 @@ a {
 @font-face {
   font-family: "Euclid Square";
   src: url("../assets/font/EuclidSquare-Bold.woff2") format("woff2"),
-    url("../assets/font/EuclidSquare-Bold.woff") format("woff");
+  url("../assets/font/EuclidSquare-Bold.woff") format("woff");
   font-weight: 700;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Euclid Square";
-  src: url("../assets/font/EuclidSquare-Medium.woff2") format("woff2"),
-    url("../assets/font/EuclidSquare-Medium.woff") format("woff");
+  src: url("../assets/font/EuclidSquare-Regular.woff2") format("woff2"),
+  url("../assets/font/EuclidSquare-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -165,9 +164,6 @@ body {
   display: flex;
 }
 
-.up {
-  margin-bottom: 85px;
-}
 
 .question-svg {
   width: 16px;
@@ -234,24 +230,7 @@ body {
 /*                          CALCULATOR                          */
 
 /*                        BTN SECTION                      */
-.Btn-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 40px;
-  background: #ff9933;
-  border-radius: 54px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 340px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  border: none;
-}
+
 
 /*                        BTN SECTION                      */
 
@@ -331,28 +310,19 @@ body {
   margin-top: 160px;
   background-image: url(../assets/img/backgroundcta.png);
   background-repeat: no-repeat;
-  height: 684px;
+  height: 620px;
 }
 
 .p-choice {
   padding-top: 160px;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 36px;
   color: #ffffff;
 }
 
-.btn-choice {
-  margin-top: 28px;
-  color: #ffffff;
-  padding: 20px 40px;
-  border: 2px solid #ffffff;
-  box-sizing: border-box;
-  border-radius: 54px;
-  width: 210px !important;
-  background-color: Transparent;
-}
+
 
 /*             CHOSE SECTION      */
 
@@ -411,8 +381,8 @@ body {
 /*             FOOTER      */
 .right-footer {
   display: flex;
-  margin-top: 230px;
-  justify-content: flex-end;
+  margin-top: 150px;
+  justify-content: center;
 }
 
 
@@ -420,7 +390,7 @@ body {
 
 
 .footer-phone {
-  display: flex;
+ text-align: center;
   align-items: center;
 }
 
@@ -456,7 +426,7 @@ body {
   .background-image {
     background-image: url(./../assets/img/backgroundwomen.png);
     background-repeat: no-repeat;
-    height: 640px;
+    height: 740px;
     width: 100%;
     background-size: cover;
   }
@@ -626,7 +596,7 @@ body {
   }
 
   .features-adv {
-    padding-top: 160px;
+    padding-top: 285px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -654,7 +624,7 @@ body {
   }
 
   .calculating_section {
-    padding-top: 320px;
+    padding-top: 120px;
   }
 
   .calculator-info {
@@ -690,7 +660,7 @@ body {
   }
 
   .slider {
-    margin-bottom: 300px;
+    margin-bottom: 100px;
   }
 
   .Day {
@@ -738,7 +708,7 @@ body {
 
   .footer-links {
     order: 2;
-    margin-bottom: 160px;
+    margin-bottom: 65px;
   }
 
   .footer-button {
@@ -750,7 +720,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 320px;
+    margin-top: 200px;
     align-content: center;
   }
 
@@ -782,7 +752,6 @@ body {
 
   .btn-footer {
     justify-content: flex-end;
-    margin-right: 80px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -794,6 +763,7 @@ body {
     padding: 12px 32px;
     background-color: transparent;
     margin: 70px 0 0 0;
+    width: 100%;
 
   }
 
@@ -801,12 +771,13 @@ body {
     margin-top: 230px;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 24px;
     color: #333333;
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
 
   }
 
@@ -832,9 +803,10 @@ body {
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #333333;
+    margin-bottom: 20px;
   }
 
   .header-navigation {
@@ -860,6 +832,38 @@ body {
     color: #333333;
     margin-top: 12px;
     margin-bottom: 160px;
+  }
+  .Btn-section {
+    padding: 20px 40px;
+    background: #ff9933;
+    border-radius: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 160px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+  }
+  .btn-choice {
+    margin-top: 28px;
+    color: #ffffff;
+    padding: 20px 40px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 54px;
+    background-color: Transparent;
+  }
+  .benefit-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    width: 600px;
   }
 }
 
@@ -1153,7 +1157,7 @@ body {
   }
 
   .links {
-    margin-top: 230px;
+    margin-top: 140px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1225,5 +1229,36 @@ body {
     color: #ffffff;
     padding-top: 20px;
     display: flex;
+  }
+  .up {
+    margin-bottom: 85px;
+  }
+  .Btn-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background: #ff9933;
+    border-radius: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 340px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    border: none;
+  }
+  .btn-choice {
+    margin-top: 28px;
+    color: #ffffff;
+    padding: 20px 40px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 54px;
+    width: 210px !important;
+    background-color: Transparent;
   }
 }
