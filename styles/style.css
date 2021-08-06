@@ -81,14 +81,7 @@ body {
   color: #ffffff;
 }
 
-.feature-description {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  width: 200px;
-}
+
 
 .feature-line {
   height: 2px;
@@ -327,7 +320,7 @@ body {
 
 .img-partners {
   display: flex;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
   margin-top: 320px;
 }
 
@@ -463,7 +456,7 @@ body {
   .background-image {
     background-image: url(./../assets/img/backgroundwomen.png);
     background-repeat: no-repeat;
-    height: 620px;
+    height: 640px;
     width: 100%;
     background-size: cover;
   }
@@ -595,7 +588,6 @@ body {
     font-size: 12px;
     line-height: 18px;
     color: #ffffff;
-    width: 200px;
   }
 
   .feature-line {
@@ -703,7 +695,7 @@ body {
 
   .Day {
     text-align: center;
-    padding: 12px 24px;
+    padding: 12px 16px;
   }
 
   .slider-info {
