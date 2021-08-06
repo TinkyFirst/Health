@@ -758,7 +758,8 @@ body {
     line-height: 24px;
     color: #333333;
     text-decoration: none;
-    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
 
   }
   .description-clinic {
@@ -784,7 +785,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
-    margin-right: 130px;
   }
 }
 
@@ -1038,6 +1038,7 @@ body {
     color: #333333;
     text-decoration: none;
     display: flex;
+    justify-content: space-between;
 
   }
   .description-clinic {
@@ -1061,8 +1062,6 @@ body {
   }
 .footer-links{
 
-  display: flex;
-  justify-content: space-between;
   width: 400px;
 }
   .link-footer {
@@ -1072,6 +1071,5 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
-    margin-right: 130px;
   }
 }
