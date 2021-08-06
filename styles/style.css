@@ -382,7 +382,7 @@ body {
 .right-footer {
   display: flex;
   margin-top: 150px;
-  justify-content: center;
+  justify-content: end;
 }
 
 
@@ -390,8 +390,8 @@ body {
 
 
 .footer-phone {
- text-align: center;
-  align-items: center;
+ text-align: start;
+  align-items: start;
 }
 
 .svg-footer {
@@ -511,7 +511,7 @@ body {
     padding-left:0;
   }
   .Btn-logic {
-    margin-top: 35px;
+    margin-top: 60px;
     border: none;
     display: block;
     flex-direction: row;
@@ -777,7 +777,7 @@ body {
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: start;
 
   }
 
