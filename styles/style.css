@@ -98,14 +98,6 @@ body {
   align-items: center;
 }
 
-.name-about {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #333333;
-}
 
 /*                            CALCULATOR                             */
 .calculating_section {
@@ -244,22 +236,9 @@ body {
   height: auto;
 }
 
-.clinic-line {
-  height: 3px;
-  background-color: #ff9933;
-  margin-top: 156px;
-  width: 200px;
-}
 
-.number-clinic {
-  margin-top: 24px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 68px;
-  line-height: 80px;
-  text-transform: uppercase;
-  color: #ff9933;
-}
+
+
 
 /*               FIRST SIMPLE SECTION            */
 
@@ -293,12 +272,7 @@ body {
 /*              BENEFIT           */
 
 
-.benefit-line {
-  width: 32px;
-  height: 124px;
-  background: #ff9933;
-  margin-right: 40px;
-}
+
 
 .img-partners {
   display: flex;
@@ -309,12 +283,7 @@ body {
 /*              BENEFIT           */
 
 /*             CHOSE SECTION      */
-.take-choice {
-  margin-top: 160px;
-  background-image: url(../assets/img/backgroundcta.png);
-  background-repeat: no-repeat;
-  height: 620px;
-}
+
 
 .p-choice {
   padding-top: 160px;
@@ -412,14 +381,7 @@ body {
   color: #333333;
 }
 
-.callback {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333333;
-  margin: 0;
-}
+
 
 
 
@@ -617,8 +579,16 @@ body {
     margin: 0;
   }
 
+
   .name-about {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #333333;
     text-align: center;
+    margin-top: 20px;
   }
 
   .description-about {
@@ -723,7 +693,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 120px;
     align-content: center;
   }
 
@@ -736,7 +706,7 @@ body {
     text-transform: uppercase;
     color: #333333;
     width: 200px;
-    margin-bottom: 320px;
+    margin-bottom: 230px;
   }
 
   .image-clinic {
@@ -771,7 +741,7 @@ body {
   }
 
   .links {
-    margin-top: 230px;
+    margin-top: 95px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -834,7 +804,7 @@ body {
     line-height: 21px;
     color: #333333;
     margin-top: 12px;
-    margin-bottom: 160px;
+    margin-bottom: 75px;
   }
   .Btn-section {
     padding: 20px 40px;
@@ -867,6 +837,45 @@ body {
     line-height: 24px;
     color: #333333;
     width: 600px;
+  }
+  .clinic-line {
+    height: 3px;
+    background-color: #ff9933;
+    margin-top: 156px;
+    width: 200px;
+  }
+  .number-clinic {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #ff9933;
+    letter-spacing: 1px;
+  }
+  .take-choice {
+    margin-top: 120px;
+    background-image: url(../assets/img/backgroundcta.png);
+    background-repeat: no-repeat;
+    height: 620px;
+  }
+  .benefit-line {
+    width: 32px;
+    height: 124px;
+    background: #ff9933;
+    margin-right: 30px;
+  }
+  .callback {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-top:60px;
+  }
+  .down-footer{
+    margin-top: 60px;
   }
 }
 
@@ -1263,5 +1272,49 @@ body {
     border-radius: 54px;
     width: 210px !important;
     background-color: Transparent;
+  }
+
+  .name-about {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .clinic-line {
+    height: 3px;
+    background-color: #ff9933;
+    margin-top: 156px;
+    width: 200px;
+  }
+  .number-clinic {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #ff9933;
+  }
+  .take-choice {
+    margin-top: 160px;
+    background-image: url(../assets/img/backgroundcta.png);
+    background-repeat: no-repeat;
+    height: 620px;
+  }
+  .benefit-line {
+    width: 32px;
+    height: 124px;
+    background: #ff9933;
+    margin-right: 40px;
+  }
+  .callback {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin: 0;
   }
 }
