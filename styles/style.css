@@ -762,6 +762,7 @@ body {
     color: #333333;
   }
 
+
   .h1-clinic {
     font-style: normal;
     font-weight: bold;
@@ -876,6 +877,9 @@ body {
   }
   .down-footer{
     margin-top: 60px;
+  }
+  .partners{
+    display: none;
   }
 }
 
