@@ -932,7 +932,9 @@ body {
   .btn-consulting-mobile {
     display: none;
   }
-
+  .btn-consulting-mobile-block{
+    display:none;
+  }
   .btn-consulting-pc {
     padding: 12px 32px;
     border: 2px solid #ffffff;
