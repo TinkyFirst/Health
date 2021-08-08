@@ -648,6 +648,7 @@ body {
 
   .slider-text {
     order: 1;
+    margin:0 auto;
   }
 
   .block-day {
@@ -677,6 +678,7 @@ body {
   .footer {
     display: flex;
     flex-direction: column;
+    padding-left:0;
   }
 
   .footer-links {
@@ -811,8 +813,7 @@ body {
     padding: 20px 40px;
     background: #ff9933;
     border-radius: 54px;
-    margin-left: auto;
-    margin-right: auto;
+ margin:0 auto;
     margin-bottom: 160px;
     font-style: normal;
     font-weight: bold;
@@ -880,6 +881,9 @@ body {
   }
   .partners{
     display: none;
+  }
+  .container-fix{
+    width: 327px;
   }
 }
 
@@ -1037,6 +1041,7 @@ body {
 
   .calculating_section {
     padding-top: 320px;
+    display:flex;
   }
 
   .calculator-info {
@@ -1135,6 +1140,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top:320px;
   }
 
   .number-clinic-description {
@@ -1151,9 +1157,10 @@ body {
   .image-clinic {
     width: 100%;
     height: auto;
-    margin-bottom: 360px;
   }
-
+.clinic-block{
+  margin-top:320px;
+}
   .check-up-img {
     width: 100%;
   }
@@ -1268,6 +1275,7 @@ body {
     line-height: 24px;
     color: #ffffff;
     border: none;
+    width: 210px;
   }
   .btn-choice {
     margin-top: 28px;
@@ -1314,6 +1322,7 @@ body {
     height: 124px;
     background: #ff9933;
     margin-right: 40px;
+
   }
   .callback {
     font-style: normal;
