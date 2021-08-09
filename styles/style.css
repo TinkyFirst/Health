@@ -131,13 +131,7 @@ body {
   margin: 0;
 }
 
-.description-calculator {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333333;
-}
+
 
 .description-price {
   margin-left: 50px;
@@ -148,9 +142,6 @@ body {
   color: #333333;
 }
 
-.calculator-description-block {
-  display: flex;
-}
 
 
 .question-svg {
@@ -923,6 +914,22 @@ body {
     text-decoration: none;
     color: #333333;
   }
+  .description-calculator {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+  }
+  .calculator-description-block {
+    display: flex;
+justify-content: space-between;
+  }
+  .calculator-right-up{
+    margin-top:50px
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -1390,5 +1397,17 @@ body {
     text-decoration: none;
     color: #333333;
   }
+  .description-calculator {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+  }
+  .calculator-description-block {
+    display: flex;
+
+  }
+
 
 }
