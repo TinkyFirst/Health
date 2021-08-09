@@ -393,7 +393,7 @@ body {
     background-repeat: no-repeat;
     height: 740px;
     width: 100%;
-    background-size: cover;
+
   }
 
   .phone {
@@ -405,7 +405,6 @@ body {
     color: #ffffff;
     text-decoration: none;
     margin-left: 16px;
-    margin-right: 80px;
   }
 
   .buy-number {
@@ -415,6 +414,7 @@ body {
     line-height: 24px;
     color: #ffffff;
     text-decoration: none;
+    margin-left:45px;
   }
 
   .btn-consulting-mobile {
@@ -618,7 +618,7 @@ body {
   .pdf-mobile {
     display: flex;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 80px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -667,7 +667,7 @@ body {
 
   .slider-name {
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .footer-line {
@@ -711,13 +711,13 @@ body {
     text-transform: uppercase;
     color: #333333;
     width: 200px;
-    margin-bottom: 230px;
+    margin-bottom: 175px;
   }
 
   .image-clinic {
     width: 100%;
     height: auto;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 
   .check-up-img {
@@ -801,6 +801,7 @@ body {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 35px;
   }
 
   .summary-description {
@@ -877,10 +878,10 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
-    margin-top:60px;
+    margin-top:20px;
   }
   .down-footer{
-    margin-top: 60px;
+    margin-top: 20px;
   }
   .partners{
     display: none;
