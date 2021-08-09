@@ -598,6 +598,9 @@ body {
 
   .calculating_section {
     padding-top: 120px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .calculator-info {
