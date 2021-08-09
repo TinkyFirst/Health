@@ -7,7 +7,8 @@ h1,
 div,
 p,
 button,
-a {
+a,
+span{
   font-family: Euclid Square, serif;
 }
 
@@ -82,12 +83,6 @@ body {
 
 
 
-.feature-line {
-  height: 2px;
-  background-color: #ffffff;
-  margin-left: 28px;
-  margin-right: 28px;
-}
 
 /*                               HEADER                             */
 
@@ -351,35 +346,17 @@ body {
 /*             SLIDER      */
 
 /*             FOOTER      */
-.right-footer {
-  display: flex;
-  margin-top: 150px;
-  justify-content: end;
-}
 
 
 
 
 
-.footer-phone {
- text-align: start;
-  align-items: start;
-}
 
-.svg-footer {
-  margin-right: 5px;
-}
 
-.phone-footer {
-  margin-right: 15px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #333333;
-}
+
+
+
+
 
 
 
@@ -523,13 +500,15 @@ body {
     font-size: 12px;
     line-height: 18px;
     color: #ffffff;
+    width: 170px;
   }
 
-  .feature-line {
+  .feature-line-mobile {
     height: 2px;
+    width: 180px;
     background-color: #ffffff;
-    margin-left: -10px;
-    margin-right: 0;
+    transform: rotate(-90deg);
+
   }
 
   .btn-header {
@@ -544,12 +523,11 @@ body {
   .feature-header {
     order: 1;
     display:flex;
+    margin-top: 32px;
+    justify-content: space-between;
   }
 
-  .feature-header {
-    display: flex;
-    margin-top: 32px;
-  }
+
 
   .line-second {
     width: 100%;
@@ -686,7 +664,7 @@ body {
 
   .footer-links {
     order: 2;
-    margin-bottom: 65px;
+    margin-bottom: 111px;
   }
 
   .footer-button {
@@ -755,7 +733,7 @@ body {
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    text-align: start;
+    text-align: center;
 
   }
 
@@ -778,15 +756,6 @@ body {
     margin-bottom: 30px;
   }
 
-  .link-footer {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: #333333;
-    margin-bottom: 20px;
-  }
 
   .header-navigation {
     padding: 0;
@@ -875,13 +844,13 @@ body {
   .callback {
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 24px;
     color: #333333;
-    margin-top:20px;
+    margin-top:18px;
   }
   .down-footer{
-    margin-top: 20px;
+    margin-top: 12px;
   }
   .partners{
     display: none;
@@ -897,6 +866,63 @@ body {
   margin:0 auto;
   padding-left:0;
 }
+  .right-footer {
+
+    margin-top: 100px;
+
+  }
+  .footer-phone {
+    text-align: center;
+    align-items: center;
+  }
+  .year{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(51, 51, 51, 0.4);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .year-span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(51, 51, 51, 0.4);
+    text-decoration: underline;
+  }
+  .alternative-tours{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  .link-footer {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  .svg-footer {
+    margin-right: 14px;
+  }
+  .phone-footer {
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333333;
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -1195,7 +1221,7 @@ body {
   }
 
   .links {
-    margin-top: 140px;
+    margin-top: 80px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1345,4 +1371,24 @@ body {
     color: #333333;
     margin: 0;
   }
+
+  .right-footer {
+    display: flex;
+    margin-top: 150px;
+    justify-content: end;
+  }
+  .svg-footer {
+    margin-right: 5px;
+  }
+  .phone-footer {
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333333;
+  }
+
 }
