@@ -35,12 +35,6 @@ body {
 
 /*                        HEADER                  */
 
-
-
-
-
-
-
 .img-about {
   margin-top: 160px;
   margin-bottom: 80px;
@@ -120,6 +114,7 @@ body {
   align-items: center;
   margin-left: auto;
 }
+
 
 .name-calculator {
   font-style: normal;
@@ -260,7 +255,11 @@ body {
 
 
 
-
+.img-partners {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 320px;
+}
 
 /*              BENEFIT           */
 
@@ -282,30 +281,6 @@ body {
 
 /*                    SLIDER       */
 
-
-
-
-
-
-
-.day1 {
-  border: 2px solid #ff9933;
-}
-
-.day2 {
-  border: 2px solid rgba(51, 51, 51, 0.05);
-}
-
-.day3 {
-  border: 2px solid rgba(51, 51, 51, 0.05);
-}
-
-.day4 {
-  border: 2px solid rgba(51, 51, 51, 0.05);
-}
-
-
-
 .Day {
   font-style: normal;
   font-weight: bold;
@@ -313,6 +288,9 @@ body {
   line-height: 24px;
   text-transform: uppercase;
   color: #333333;
+  border: 2px solid rgba(51, 51, 51, 0.05);
+
+  cursor: pointer;
 }
 
 .selected {
@@ -322,12 +300,18 @@ body {
   line-height: 24px;
   text-transform: uppercase;
   color: #ff9933;
+  border: 2px solid #ff9933;
 }
 
 
 
 .arrow-left {
   margin-right: 40px;
+  cursor: pointer;
+}
+
+.arrow-right {
+  cursor: pointer;
 }
 
 /*             SLIDER      */
@@ -600,13 +584,13 @@ body {
     display: none;
   }
 
-  .slider-block {
+  .slider {
     margin-bottom: 100px;
   }
 
   .Day {
     text-align: center;
-    padding: 12px 16px;
+    padding: 12px 26px;
   }
 
   .slider-info {
@@ -782,6 +766,7 @@ body {
     color: #ffffff;
     border: none;
     width: 100%;
+    margin-top:160px;
   }
   .btn-choice {
     margin-top: 28px;
@@ -1130,7 +1115,7 @@ body {
     justify-content: space-between;
   }
 
-  .slider-block {
+  .slider {
     display: flex;
     margin-bottom: 300px;
     align-content: space-between;
@@ -1154,7 +1139,6 @@ body {
 
   .arrow {
     color: black;
-    margin-top: 175px;
   }
 
   .slider-name {
@@ -1257,6 +1241,7 @@ body {
 
   .slider-description {
     width: 480px;
+    height: 250px;
   }
 
   .h1-clinic {
@@ -1414,16 +1399,10 @@ body {
     display: flex;
 
   }
-  .img-partners {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 320px;
+
+  .slider-row{
+    margin-top:330px;
   }
-
-
-.slider-row{
-  margin-top:330px;
-}
 
   .slide{
     align-items: center;
@@ -1434,4 +1413,7 @@ body {
   .mobile{
     display:none;
   }
+.slider-block{
+  display: flex;
+}
 }
