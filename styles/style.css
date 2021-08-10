@@ -376,7 +376,7 @@ body {
     line-height: 18px;
     color: #ffffff;
     background-color: transparent;
-    width: 100%;
+    width: 97%;
   }
 
   .offer {
@@ -921,6 +921,10 @@ body {
     margin-right:30px;
     margin-top: 159px;
   }
+  .container-fluid{
+    padding-left:0;
+    padding-right:0;
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -1417,4 +1421,7 @@ body {
 .slider-block{
   display: flex;
 }
+  .check-up-block{
+    display: flex;
+  }
 }

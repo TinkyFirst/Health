@@ -3,6 +3,7 @@ let right = document.getElementById('right');
 let text = document.getElementById('text');
 let img = document.getElementById('img');
 let days = document.querySelectorAll('.Day')
+let title = document.querySelectorAll ('.title')
 let days_content = [
     [
         'Прилет (время зависит от выбранного рейса) Трансфер из аэропорта в отель Заселение в отеле на выбор (3, 4, 5 звезд) в Азиатской части Стамбула, район Кадикей (Мода) рядом с набережной Мраморного моря Рекомендуемый маршрут для самостоятельной прогулки и посещения ресторана Связь с организатором в мессенджере',
@@ -29,6 +30,7 @@ for (let i = 0; i < days.length; i++){
         days[current_slide].classList.remove('selected')
         current_slide = i;
         days[current_slide].classList.add('selected')
+        title.innerHTML = days_content [current_slide] [0]
         text.innerHTML = days_content[current_slide][0]
         img.src = days_content[current_slide][1]
         if (current_slide === 3){
@@ -50,6 +52,7 @@ right.onclick = function () {
         days[current_slide].classList.remove('selected')
         current_slide++
         days[current_slide].classList.add('selected')
+        title.innerHTML = days_content [current_slide] [0]
         text.innerHTML = days_content[current_slide][0]
         img.src = days_content[current_slide][1]
         if (current_slide === 3){
@@ -66,6 +69,7 @@ left.onclick = function () {
         days[current_slide].classList.remove('selected')
         current_slide--
         days[current_slide].classList.add('selected')
+        title.innerHTML = days_content [current_slide] [0]
         text.innerHTML = days_content[current_slide][0]
         img.src = days_content[current_slide][1]
         if (current_slide === 0){
