@@ -32,14 +32,14 @@ for (let i = 0; i < days.length; i++){
         text.innerHTML = days_content[current_slide][0]
         img.src = days_content[current_slide][1]
         if (current_slide === 3){
-            right.src = './assets/img/arrow-black-right.svg';
+            right.src = '/assets/img/arrow-black-right.svg';
         }else {
-            right.src = './assets/img/arrow-right.svg';
+            right.src = '/assets/img/arrow-right.svg';
         }
         if (current_slide === 0){
-            left.src = './assets/img/arrow-left.svg';
+            left.src = '/assets/img/arrow-left.svg';
         }else {
-            left.src = './assets/img/arrow-black-left.svg';
+            left.src = '/assets/img/arrow-black-left.svg';
         }
     })
 }
@@ -53,10 +53,10 @@ right.onclick = function () {
         text.innerHTML = days_content[current_slide][0]
         img.src = days_content[current_slide][1]
         if (current_slide === 3){
-            right.src = './assets/img/arrow-black-right.svg';
+            right.src = '/assets/img/arrow-black-right.svg';
         }else {
-            right.src = './assets/img/arrow-right.svg';
-            left.src = './assets/img/arrow-black-left.svg';
+            right.src = '/assets/img/arrow-right.svg';
+            left.src = '/assets/img/arrow-black-left.svg';
         }
     }
 }
@@ -69,10 +69,10 @@ left.onclick = function () {
         text.innerHTML = days_content[current_slide][0]
         img.src = days_content[current_slide][1]
         if (current_slide === 0){
-            left.src = './assets/img/arrow-left.svg';
-            right.src = './assets/img/arrow-right.svg';
+            left.src = '/assets/img/arrow-left.svg';
+            right.src = '/assets/img/arrow-right.svg';
         }else {
-            left.src = './assets/img/arrow-black-left.svg';
+            left.src = '/assets/img/arrow-black-left.svg';
         }
     }
 }
