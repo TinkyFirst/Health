@@ -243,9 +243,7 @@ body {
   margin-top: 160px;
 }
 
-.row {
-  position: relative;
-}
+
 
 
 /*              SECOND SIMPLE SECTION            */
@@ -732,9 +730,7 @@ body {
     padding: 0;
   }
 
-  .container-test {
-    padding: 0;
-  }
+
 
   .header-menu {
     display: flex;
@@ -788,8 +784,8 @@ body {
   .clinic-line {
     height: 3px;
     background-color: #ff9933;
-    margin-top: 156px;
-    width: 200px;
+    margin-top: 45px;
+    width: 300px;
   }
   .number-clinic {
     margin-top: 24px;
@@ -924,6 +920,9 @@ body {
   .container-fluid{
     padding-left:0;
     padding-right:0;
+  }
+  .clinic-text{
+    margin: 0 auto;
   }
 }
 
