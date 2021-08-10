@@ -260,11 +260,7 @@ body {
 
 
 
-.img-partners {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 320px;
-}
+
 
 /*              BENEFIT           */
 
@@ -604,7 +600,7 @@ body {
     display: none;
   }
 
-  .slider {
+  .slider-block {
     margin-bottom: 100px;
   }
 
@@ -777,7 +773,7 @@ body {
     padding: 20px 40px;
     background: #ff9933;
     border-radius: 54px;
- margin:0 auto;
+    margin:0 auto;
     margin-bottom: 160px;
     font-style: normal;
     font-weight: bold;
@@ -853,10 +849,10 @@ body {
     padding-left:0;
     margin: 0 auto;
   }
-.check-up-block{
-  margin:0 auto;
-  padding-left:0;
-}
+  .check-up-block{
+    margin:0 auto;
+    padding-left:0;
+  }
   .right-footer {
 
     margin-top: 100px;
@@ -925,10 +921,20 @@ body {
   }
   .calculator-description-block {
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
   }
   .calculator-right-up{
     margin-top:17px
+  }
+  .slider{
+    display:none;
+  }
+  .slide{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right:30px;
+    margin-top: 160px;
   }
 }
 
@@ -1124,7 +1130,7 @@ justify-content: space-between;
     justify-content: space-between;
   }
 
-  .slider {
+  .slider-block {
     display: flex;
     margin-bottom: 300px;
     align-content: space-between;
@@ -1203,10 +1209,10 @@ justify-content: space-between;
     width: 100%;
     height: auto;
   }
-.clinic-block{
-  margin-top:320px;
-  padding-left: 0;
-}
+  .clinic-block{
+    margin-top:320px;
+    padding-left: 0;
+  }
   .check-up-img {
     width: 100%;
   }
@@ -1408,6 +1414,24 @@ justify-content: space-between;
     display: flex;
 
   }
+  .img-partners {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 320px;
+  }
 
 
+.slider-row{
+  margin-top:330px;
+}
+
+  .slide{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right:100px;
+  }
+  .mobile{
+    display:none;
+  }
 }
