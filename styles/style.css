@@ -473,10 +473,9 @@ body {
   }
 
   .feature-line-mobile {
-    height: 2px;
-    width: 180px;
+    height: 80px;
+    width: 2px;
     background-color: #ffffff;
-    transform: rotate(-90deg);
 
   }
 
@@ -588,7 +587,7 @@ body {
 
   .Day {
     text-align: center;
-    padding: 12px 26px;
+    padding: 12px;
     width: 100%;
   }
 
@@ -836,6 +835,10 @@ body {
   .check-up-block{
     margin:0 auto;
     padding-left:0;
+    padding-right:0;
+  }
+  .clinic-padding-block{
+    padding:0;
   }
   .right-footer {
 
@@ -920,16 +923,24 @@ body {
     margin-right:30px;
     margin-top: 159px;
   }
-  .container-fluid{
-    padding-left:0;
-    padding-right:0;
-  }
+  /*.container-fluid{*/
+  /*  padding-left:0;*/
+  /*  padding-right:0;*/
+  /*}*/
   .clinic-text{
     margin: 0 auto;
   }
   .check-up-percent{
-    width: 98%;
+    width: 100%;
   }
+  .slider-pic{
+    padding:0;
+  }
+  .slider-description{
+    height:200px;
+    overflow:scroll ;
+  }
+
 }
 
 /*// Medium devices (tablets, 768px and up)*/
