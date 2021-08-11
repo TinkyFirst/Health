@@ -374,7 +374,7 @@ body {
     line-height: 18px;
     color: #ffffff;
     background-color: transparent;
-    width: 97%;
+    width: 100%;
   }
 
   .offer {
@@ -454,7 +454,12 @@ body {
     padding: 20px 40px;
     margin: 0;
   }
-
+.phone-block-header{
+  padding:0;
+}
+.phone-block-test{
+  padding:0;
+}
   .feature-name {
     font-style: normal;
     font-weight: bold;
@@ -935,12 +940,20 @@ body {
   }
   .slider-pic{
     padding:0;
+    order:4;
   }
   .slider-description{
-    height:200px;
-    overflow:scroll ;
-  }
 
+    order:3;
+  }
+.slider-text{
+  order:1;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+color: #333333;
+}
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -1144,6 +1157,7 @@ body {
   .Day {
     text-align: center;
     padding: 6px 40px;
+    order:2
   }
 
   .slider-text {
