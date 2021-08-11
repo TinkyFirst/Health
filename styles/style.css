@@ -139,11 +139,7 @@ body {
 
 
 
-.question-svg {
-  width: 16px;
-  height: 16px;
-  margin-left: 12px;
-}
+
 
 
 .summary {
@@ -351,12 +347,13 @@ body {
     color: #ffffff;
     text-decoration: none;
     margin-left: 16px;
+
   }
 
   .buy-number {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 24px;
     color: #ffffff;
     text-decoration: none;
@@ -370,8 +367,8 @@ body {
     border-bottom: 2px solid #ffffff;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
     color: #ffffff;
     background-color: transparent;
     width: 100%;
@@ -385,6 +382,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     margin-top: 40px;
+    letter-spacing: 2px;
   }
   .phone-icon {
     height: 17px;
@@ -396,8 +394,8 @@ body {
   .header-name {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
     color: #ffffff;
     margin-right: 24px;
     margin-bottom: 0;
@@ -406,8 +404,8 @@ body {
   .header-description {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
     color: #ffffff;
     margin-bottom: 0;
   }
@@ -471,14 +469,14 @@ body {
   .feature-description {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
     color: #ffffff;
     width: 170px;
   }
 
   .feature-line-mobile {
-    height: 80px;
+    height: 100px;
     width: 2px;
     background-color: #ffffff;
 
@@ -784,8 +782,8 @@ body {
   .benefit-text {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 25px;
     color: #333333;
     width: 600px;
   }
@@ -820,7 +818,7 @@ body {
   .callback {
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 24px;
     color: #333333;
     margin-top:18px;
@@ -875,8 +873,8 @@ body {
   .alternative-tours{
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #333333;
@@ -885,8 +883,8 @@ body {
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
     color: #333333;
     margin-bottom: 20px;
   }
@@ -956,6 +954,9 @@ body {
 color: #333333;
   margin-left:0;
 }
+  .question-svg {
+   display:none;
+  }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -982,6 +983,7 @@ color: #333333;
     color: #ffffff;
     margin-top: 78px;
     width: 100%;
+
   }
 
   .phone {
@@ -1455,5 +1457,10 @@ color: #333333;
 }
   .check-up-block{
     display: flex;
+  }
+  .question-svg {
+    width: 16px;
+    height: 16px;
+    margin-left: 12px;
   }
 }
