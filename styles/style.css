@@ -589,6 +589,7 @@ body {
   .Day {
     text-align: center;
     padding: 12px 26px;
+    width: 100%;
   }
 
   .slider-info {
@@ -606,6 +607,8 @@ body {
     align-items: center;
     display: flex;
     order: 2;
+    width: 100%;
+
   }
 
   .arrow {
@@ -923,6 +926,9 @@ body {
   }
   .clinic-text{
     margin: 0 auto;
+  }
+  .check-up-percent{
+    width: 98%;
   }
 }
 
