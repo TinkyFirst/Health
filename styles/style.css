@@ -378,11 +378,10 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
-    line-height: 28px;
+    line-height: 34px;
     text-transform: uppercase;
     color: #ffffff;
     margin-top: 40px;
-    letter-spacing: 2px;
   }
   .phone-icon {
     height: 17px;
@@ -778,6 +777,10 @@ body {
     box-sizing: border-box;
     border-radius: 54px;
     background-color: Transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
   }
   .benefit-text {
     font-style: normal;
@@ -803,6 +806,7 @@ body {
     color: #ff9933;
     letter-spacing: 1px;
   }
+
   .take-choice {
     margin-top: 120px;
     background-image: url(../assets/img/backgroundctamobile.png);
@@ -949,7 +953,7 @@ body {
   order:1;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 24px;
 color: #333333;
   margin-left:0;
@@ -1207,6 +1211,7 @@ color: #333333;
 
   .footer {
     display: flex;
+    justify-content: space-between;
   }
 
   .benefit {
@@ -1240,9 +1245,7 @@ color: #333333;
   }
 
   .btn-footer {
-    justify-content: flex-end;
-    float: right;
-    margin-right: 80px;
+    margin-top: 52px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -1256,7 +1259,7 @@ color: #333333;
   }
 
   .links {
-    margin-top: 80px;
+    margin-top: 230px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1264,7 +1267,7 @@ color: #333333;
     color: #333333;
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
+flex-direction: column;
 
   }
 
@@ -1293,8 +1296,7 @@ color: #333333;
   }
 
   .footer-links {
-
-    width: 400px;
+margin-bottom: 200px;
   }
 
   .link-footer {
@@ -1362,6 +1364,11 @@ color: #333333;
     border-radius: 54px;
     width: 210px !important;
     background-color: Transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+
   }
 
   .name-about {
@@ -1411,14 +1418,14 @@ color: #333333;
 
   .right-footer {
     display: flex;
-    margin-top: 150px;
+    margin-top: 230px;
     justify-content: end;
   }
   .svg-footer {
-    margin-right: 5px;
+    margin-right: 15px;
   }
   .phone-footer {
-    margin-right: 15px;
+    margin-right: 20px;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -1462,5 +1469,45 @@ color: #333333;
     width: 16px;
     height: 16px;
     margin-left: 12px;
+  }
+  .alternative-tours{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+letter-spacing: 0.04em;
+    text-transform: uppercase;
+color: #333333;
+    margin-right: 250px;
+  }
+  .footer-phone {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .end-footer{
+    display:flex;
+    margin-bottom:60px ;
+  }
+  .year{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(51, 51, 51, 0.4);
+  }
+  .year-span{
+    text-decoration: underline;
+  }
+  .footer-block-line{
+    background-color: #333333;
+    width: 2px;
+    height: 270px;
+    margin-top: 167px;
+  }
+  .feature-line-pc{
+   background-color: #FFFFFF;
+    width: 2px;
+
   }
 }
