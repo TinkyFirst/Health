@@ -358,9 +358,8 @@ body {
     .phone-icon {
         height: 17px;
         width: 12px;
+}
 
-
-    }
 
     .header-name {
         font-style: normal;
@@ -431,548 +430,554 @@ body {
     }
 
 
-.phone-block-header {
-    padding: 0;
-}
-
-.phone-block-test {
-    padding: 0;
-}
-
-.feature-name {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 25px;
-    color: #ffffff;
-}
-
-.feature-description {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    width: 170px;
-}
-
-.feature-line-mobile {
-    height: 100px;
-    width: 2px;
-    background-color: #ffffff;
-
-}
-
-.btn-header {
-    display: flex;
-    flex-direction: column;
-}
-
-.btn-header-block {
-    order: 2;
-}
-
-.feature-header {
-    order: 1;
-    display: flex;
-    margin-top: 32px;
-    justify-content: space-between;
-}
-
-
-.line-second {
-    width: 100%;
-    height: 2px;
-    background-color: #ffffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-.features-adv {
-    padding-top: 285px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.feature-item {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 100px;
-}
-
-.img-about {
-    margin: 0;
-}
-
-
-.name-about {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    text-transform: uppercase;
-    color: #333333;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.description-about {
-    margin: 0;
-    text-align: center;
-}
-
-.calculating_section {
-    padding-top: 120px;
-    margin: 0 auto;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.calculator-info {
-    display: block;
-}
-
-.line {
-    width: 100%;
-    height: 2px;
-    background-color: #ffffff;
-
-    display: none;
-}
-
-.pdf-mobile {
-    display: flex;
-    align-items: center;
-    margin-top: 80px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    margin-bottom: 160px;
-}
-
-.pdf-mobile p {
-    margin: 0 0 0 16px;
-}
-
-.pdf-pc {
-    display: none;
-}
-
-.slider {
-    margin-bottom: 100px;
-}
-
-.Day {
-    text-align: center;
-    padding: 12px;
-    width: 100%;
-}
-
-.slider-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.slider-text {
-    order: 1;
-    margin: 0 auto;
-}
-
-.block-day {
-    margin-top: 15px;
-    margin-bottom: 21px;
-    align-items: center;
-    display: flex;
-    order: 2;
-    width: 100%;
-
-}
-
-.arrow {
-    display: none;
-}
-
-.slider-name {
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
-.footer-line {
-    display: none;
-}
-
-.footer-date {
-    display: none;
-}
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0;
-}
-
-.footer-links {
-    order: 2;
-    margin-bottom: 111px;
-}
-
-.footer-button {
-    order: 1;
-
-}
-
-.benefit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 120px;
-    align-content: center;
-}
-
-.number-clinic-description {
-    margin-top: 4px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    text-transform: uppercase;
-    color: #333333;
-    width: 200px;
-    margin-bottom: 175px;
-}
-
-.image-clinic {
-    width: 100%;
-    height: auto;
-    margin-bottom: 80px;
-}
-
-.check-up-img {
-    width: 100%;
-}
-
-.btn-consulting-pc {
-    display: none;
-}
-
-.btn-footer {
-    justify-content: flex-end;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    border: 2px solid #333333;
-    box-sizing: border-box;
-    border-radius: 54px;
-    padding: 12px 32px;
-    background-color: transparent;
-    margin: 70px 0 0 0;
-    width: 100%;
-
-}
-
-.links {
-    margin-top: 95px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    color: #333333;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
-
-.description-clinic {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-}
-
-
-.h1-clinic {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #333333;
-    margin-bottom: 30px;
-}
-
-
-.header-navigation {
-    padding: 0;
-}
-
-
-.header-menu {
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 35px;
-}
-
-.summary-description {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    color: #333333;
-    margin-top: 12px;
-    margin-bottom: 75px;
-}
-
-.Btn-section {
-    padding: 20px 40px;
-    background: #ff9933;
-    border-radius: 54px;
-    margin: 0 auto;
-    margin-bottom: 160px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    border: none;
-    width: 100%;
-    margin-top: 160px;
-}
-
-.btn-choice {
-    margin-top: 28px;
-    color: #ffffff;
-    padding: 20px 40px;
-    border: 2px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 54px;
-    background-color: Transparent;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.benefit-text {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    color: #333333;
-    width: 600px;
-}
-
-.clinic-line {
-    height: 3px;
-    background-color: #ff9933;
-    margin-top: 45px;
-    width: 300px;
-}
-
-.number-clinic {
-    margin-top: 24px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 62px;
-    line-height: 80px;
-    text-transform: uppercase;
-    color: #ff9933;
-    letter-spacing: 1px;
-}
-
-.take-choice {
-    margin-top: 120px;
-    background-image: url(../assets/img/backgroundctamobile.png);
-    background-repeat: no-repeat;
-    height: 620px;
-}
-
-.benefit-line {
-    width: 32px;
-    height: 124px;
-    background: #ff9933;
-    margin-right: 30px;
-}
-
-.callback {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    margin-top: 18px;
-}
-
-.down-footer {
-    margin-top: 12px;
-}
-
-.partners {
-    display: none;
-}
-
-.container-fix {
-    width: 327px;
-}
-
-.clinic-text-block {
-    padding-left: 0;
-    margin: 0 auto;
-}
-
-.check-up-block {
-    margin: 0 auto;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.clinic-padding-block {
-    padding: 0;
-}
-
-.right-footer {
-
-    margin-top: 100px;
-
-}
-
-.footer-phone {
-    text-align: center;
-    align-items: center;
-}
-
-.year {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    color: rgba(51, 51, 51, 0.4);
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.year-span {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    color: rgba(51, 51, 51, 0.4);
-    text-decoration: underline;
-}
-
-.alternative-tours {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #333333;
-}
-
-.link-footer {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    margin-bottom: 20px;
-}
-
-.svg-footer {
-    margin-right: 14px;
-}
-
-.phone-footer {
-    margin-right: 15px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #333333;
-}
-
-.description-calculator {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    display: flex;
-    justify-content: space-between;
-}
-
-.calculator-description-block {
-    display: flex;
-    justify-content: space-between;
-}
-
-.calculator-right-up {
-    margin-top: 17px
-}
-
-.slider {
-    display: none;
-}
-
-.slide {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-right: 30px;
-    margin-top: 159px;
-}
-
-.clinic-text {
-    margin: 0 auto;
-}
-
-.check-up-percent {
-    width: 100%;
-}
-
-.slider-pic {
-    padding: 0;
-    order: 4;
-}
-
-.slider-description {
-    margin-bottom: 21px;
-    order: 3;
-}
-
-.slider-text {
-    order: 1;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 24px;
-    color: #333333;
-    margin-left: 0;
-}
-
-.question-svg {
-    display: none;
-}
-
-.slider-name {
-    display: none;
-}
+    .phone-block-header {
+        padding: 0;
+    }
+
+    .phone-block-test {
+        padding: 0;
+    }
+
+    .feature-name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        color: #ffffff;
+    }
+
+    .feature-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        width: 170px;
+    }
+
+    .feature-line-mobile {
+        height: 100px;
+        width: 2px;
+        background-color: #ffffff;
+
+    }
+
+    .btn-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-header-block {
+        order: 2;
+    }
+
+    .feature-header {
+        order: 1;
+        display: flex;
+        margin-top: 32px;
+        justify-content: space-between;
+    }
+
+
+    .line-second {
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .features-adv {
+        padding-top: 285px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .img-about {
+        margin: 0;
+    }
+
+
+    .name-about {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #333333;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .description-about {
+        margin: 0;
+        text-align: center;
+    }
+
+    .calculating_section {
+        padding-top: 120px;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .calculator-info {
+        display: block;
+    }
+
+    .line {
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+
+        display: none;
+    }
+
+    .pdf-mobile {
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin-bottom: 160px;
+    }
+
+    .pdf-mobile p {
+        margin: 0 0 0 16px;
+    }
+
+    .pdf-pc {
+        display: none;
+    }
+
+    .slider {
+        margin-bottom: 100px;
+    }
+
+    .Day {
+        text-align: center;
+        padding: 12px;
+        width: 100%;
+    }
+
+    .slider-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider-text {
+        order: 1;
+        margin: 0 auto;
+    }
+
+    .block-day {
+        margin-top: 15px;
+        margin-bottom: 21px;
+        align-items: center;
+        display: flex;
+        order: 2;
+        width: 100%;
+
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .slider-name {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .footer-line {
+        display: none;
+    }
+
+    .footer-date {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .footer-links {
+        order: 2;
+        margin-bottom: 111px;
+    }
+
+    .footer-button {
+        order: 1;
+
+    }
+
+    .benefit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 120px;
+        align-content: center;
+    }
+
+    .number-clinic-description {
+        margin-top: 4px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #333333;
+        width: 200px;
+        margin-bottom: 175px;
+    }
+
+    .image-clinic {
+        width: 100%;
+        height: auto;
+        margin-bottom: 80px;
+    }
+
+    .check-up-img {
+        width: 100%;
+    }
+
+    .btn-consulting-pc {
+        display: none;
+    }
+
+
+
+    .btn-consulting-mobile:active {
+        color: rgba(51, 51, 51, 0.6);
+    }
+
+    .btn-footer {
+        justify-content: flex-end;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        border: 2px solid #333333;
+        box-sizing: border-box;
+        border-radius: 54px;
+        padding: 12px 32px;
+        background-color: transparent;
+        margin: 70px 0 0 0;
+        width: 100%;
+
+    }
+
+    .links {
+        margin-top: 95px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        color: #333333;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .description-clinic {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+    }
+
+
+    .h1-clinic {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #333333;
+        margin-bottom: 30px;
+    }
+
+
+    .header-navigation {
+        padding: 0;
+    }
+
+
+    .header-menu {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+    }
+
+    .summary-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #333333;
+        margin-top: 12px;
+        margin-bottom: 75px;
+    }
+
+    .Btn-section {
+        padding: 20px 40px;
+        background: #ff9933;
+        border-radius: 54px;
+        margin: 0 auto;
+        margin-bottom: 160px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        border: none;
+        width: 100%;
+        margin-top: 160px;
+    }
+
+    .btn-choice {
+        margin-top: 28px;
+        color: #ffffff;
+        padding: 20px 40px;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 54px;
+        background-color: Transparent;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .benefit-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #333333;
+        width: 600px;
+    }
+
+    .clinic-line {
+        height: 3px;
+        background-color: #ff9933;
+        margin-top: 45px;
+        width: 300px;
+    }
+
+    .number-clinic {
+        margin-top: 24px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 62px;
+        line-height: 80px;
+        text-transform: uppercase;
+        color: #ff9933;
+        letter-spacing: 1px;
+    }
+
+    .take-choice {
+        margin-top: 120px;
+        background-image: url(../assets/img/backgroundctamobile.png);
+        background-repeat: no-repeat;
+        height: 620px;
+    }
+
+    .benefit-line {
+        width: 32px;
+        height: 124px;
+        background: #ff9933;
+        margin-right: 30px;
+    }
+
+    .callback {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin-top: 18px;
+    }
+
+    .down-footer {
+        margin-top: 12px;
+    }
+
+    .partners {
+        display: none;
+    }
+
+    .container-fix {
+        width: 327px;
+    }
+
+    .clinic-text-block {
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .check-up-block {
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .clinic-padding-block {
+        padding: 0;
+    }
+
+    .right-footer {
+
+        margin-top: 100px;
+
+    }
+
+    .footer-phone {
+        text-align: center;
+        align-items: center;
+    }
+
+    .year {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: rgba(51, 51, 51, 0.4);
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .year-span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: rgba(51, 51, 51, 0.4);
+        text-decoration: underline;
+    }
+
+    .alternative-tours {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #333333;
+    }
+
+    .link-footer {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+
+    .svg-footer {
+        margin-right: 14px;
+    }
+
+    .phone-footer {
+        margin-right: 15px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #333333;
+    }
+
+    .description-calculator {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .calculator-description-block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .calculator-right-up {
+        margin-top: 17px
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .slide {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+        margin-top: 159px;
+    }
+
+    .clinic-text {
+        margin: 0 auto;
+    }
+
+    .check-up-percent {
+        width: 100%;
+    }
+
+    .slider-pic {
+        padding: 0;
+        order: 4;
+    }
+
+    .slider-description {
+        margin-bottom: 21px;
+        order: 3;
+    }
+
+    .slider-text {
+        order: 1;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+        color: #333333;
+        margin-left: 0;
+    }
+
+    .question-svg {
+        display: none;
+    }
+
+    .slider-name {
+        display: none;
+    }
 
 }
 
@@ -1081,7 +1086,12 @@ body {
         width: 210px;
         margin-right: 52px;
     }
-
+    .Btn-section:hover{
+      background-color: #F38414;
+    }
+.Btn-section:active{
+    color: rgba(255, 255, 255, 0.6);
+}
     .Btn-text {
         font-style: normal;
         font-weight: bold;
@@ -1159,6 +1169,10 @@ body {
         color: #333333;
         margin-bottom: 160px;
     }
+    .pdf-pc:hover{
+        color: #FF9933;
+
+    }
 
     .pdf-pc p {
         margin: 0 0 0 16px;
@@ -1193,16 +1207,18 @@ body {
         margin-top: 67px;
         align-items: center;
         display: flex;
-        justify-content: flex-end;
+        margin-left: 100px;
     }
 
     .arrow {
         color: black;
+        margin-left:100px;
     }
 
     .slider-name {
         margin-top: 100px;
         margin-bottom: 28px;
+        margin-left:100px
     }
 
     .footer-line {
@@ -1276,6 +1292,14 @@ body {
         padding: 12px 32px;
         background-color: transparent;
     }
+    .btn-footer:hover{
+        background: #333333;
+        color: #FFFFFF;
+    }
+    .btn-footer:active{
+        background: #333333;
+        color: rgba(255, 255, 255, 0.6);
+    }
 
     .links {
         margin-top: 230px;
@@ -1302,6 +1326,7 @@ body {
     .slider-description {
         width: 480px;
         height: 250px;
+        margin-left:100px;
     }
 
     .h1-clinic {
@@ -1568,4 +1593,22 @@ body {
     .slider-pic {
         padding: 0;
     }
+    .phone-icon:hover{
+        fill: #ffffff
+
+    }
+    .btn-consulting-pc:active {
+        color: rgba(51, 51, 51, 0.6);
+    }
+    .btn-consulting-pc:hover{
+        background: #FFFFFF;
+        color: #333333;
+    }
+    .header-menu:hover{
+
+    }
+  .slider-text-block{
+      margin-left:100px
+  }
+
 }
