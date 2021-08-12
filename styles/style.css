@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -8,74 +8,73 @@ div,
 p,
 button,
 a,
-span{
-  font-family: Euclid Square, serif;
+span {
+    font-family: Euclid Square, serif;
 }
 
 @font-face {
-  font-family: "Euclid Square";
-  src: url("../assets/font/EuclidSquare-Bold.woff2") format("woff2"),
-  url("../assets/font/EuclidSquare-Bold.woff") format("woff");
-  font-weight: 700;
-  font-display: swap;
+    font-family: "Euclid Square";
+    src: url("../assets/font/EuclidSquare-Bold.woff2") format("woff2"),
+    url("../assets/font/EuclidSquare-Bold.woff") format("woff");
+    font-weight: 700;
+    font-display: swap;
 }
+
 @font-face {
-  font-family: "Euclid Square";
-  src: url("../assets/font/EuclidSquare-Regular.woff2") format("woff2"),
-  url("../assets/font/EuclidSquare-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Euclid Square";
+    src: url("../assets/font/EuclidSquare-Regular.woff2") format("woff2"),
+    url("../assets/font/EuclidSquare-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
 }
 
 /*                        HEADER                  */
 
 .img-about {
-  margin-top: 160px;
-  margin-bottom: 80px;
-  width: 60px;
-  height: 60px;
+    margin-top: 160px;
+    margin-bottom: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 .description-about {
-  width: 290px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+    width: 290px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .btn-header-block {
-  text-align: center;
-  align-items: center;
+    text-align: center;
+    align-items: center;
 }
 
 .Btn-text {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  margin: 0 0 0 52px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin: 0 0 0 52px;
+    text-decoration: none;
 }
-
 
 
 .feature-name {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 54px;
-  line-height: 36px;
-  text-align: left;
-  color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 36px;
+    text-align: left;
+    color: #ffffff;
 }
-
-
 
 
 /*                               HEADER                             */
@@ -83,118 +82,113 @@ body {
 /*                     THREE ELEMENTS FEATURES           */
 
 .check-up-calculator {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 
 /*                            CALCULATOR                             */
 .calculating_section {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .h1-calculator {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #333333;
 }
 
 .calculator-line {
-  margin-top: 16px;
-  height: 1px;
-  background-color: #333333;
-  margin-bottom: 32px;
+    margin-top: 16px;
+    height: 1px;
+    background-color: #333333;
+    margin-bottom: 32px;
 }
 
 
 .right {
-  align-items: center;
-  margin-left: auto;
+    align-items: center;
+    margin-left: auto;
 }
 
 
 .name-calculator {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #333333;
-  margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0;
 }
-
 
 
 .description-price {
-  margin-left: 50px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333333;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
 }
-
-
-
-
 
 
 .summary {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  color: #333333;
-  margin-top: 85px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 85px;
 }
 
 .prices {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .yellow-price {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 62px;
-  line-height: 80px;
-  color: #ff9933;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 80px;
+    color: #ff9933;
 }
 
 .yellow-text {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 80px;
-  color: #ff9933;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 80px;
+    color: #ff9933;
 }
 
 .black-price {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 20px;
-  width: 90px;
-  color: rgba(51, 51, 51, 0.3);
-  align-items: flex-end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    width: 90px;
+    color: rgba(51, 51, 51, 0.3);
+    align-items: flex-end;
 }
 
 .black-description {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 12px;
-  color: rgba(51, 51, 51, 0.3);
-  width: 130px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(51, 51, 51, 0.3);
+    width: 130px;
 }
 
 .summary-line {
-  height: 1px;
-  background-color: #333333;
-  margin-top: 40px;
+    height: 1px;
+    background-color: #333333;
+    margin-top: 40px;
 }
 
 
@@ -209,12 +203,9 @@ body {
 
 
 .image-health {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
-
-
-
 
 
 /*               FIRST SIMPLE SECTION            */
@@ -223,23 +214,21 @@ body {
 
 
 .secondary {
-  margin-left: 57px;
-  width: 490px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 68px;
-  line-height: 80px;
-  text-transform: uppercase;
-  color: #333333;
+    margin-left: 57px;
+    width: 490px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #333333;
 }
 
 .clinic {
-  display: flex;
-  margin-bottom: 322px;
-  margin-top: 160px;
+    display: flex;
+    margin-bottom: 322px;
+    margin-top: 160px;
 }
-
-
 
 
 /*              SECOND SIMPLE SECTION            */
@@ -247,12 +236,10 @@ body {
 /*              BENEFIT           */
 
 
-
-
 .img-partners {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 320px;
 }
 
 /*              BENEFIT           */
@@ -261,14 +248,13 @@ body {
 
 
 .p-choice {
-  padding-top: 160px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 36px;
-  color: #ffffff;
+    padding-top: 160px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
 }
-
 
 
 /*             CHOSE SECTION      */
@@ -276,36 +262,35 @@ body {
 /*                    SLIDER       */
 
 .Day {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #333333;
-  border: 2px solid rgba(51, 51, 51, 0.05);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #333333;
+    border: 2px solid rgba(51, 51, 51, 0.05);
 
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .selected {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #ff9933;
-  border: 2px solid #ff9933;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ff9933;
+    border: 2px solid #ff9933;
 }
-
 
 
 .arrow-left {
-  margin-right: 40px;
-  cursor: pointer;
+    margin-right: 40px;
+    cursor: pointer;
 }
 
 .arrow-right {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 /*             SLIDER      */
@@ -313,222 +298,218 @@ body {
 /*             FOOTER      */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*             FOOTER      */
 
 @media (max-width: 575px) {
-  .background-image {
-    background-image: url(./../assets/img/backgroundwomen.png);
-    background-repeat: no-repeat;
-    height: 740px;
-    width: 100%;
+    .background-image {
+        background-image: url(./../assets/img/backgroundwomen.png);
+        background-repeat: no-repeat;
+        height: 740px;
+        width: 100%;
 
-  }
+    }
 
-  .phone {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #ffffff;
-    text-decoration: none;
-    margin-left: 16px;
+    .phone {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 16px;
 
-  }
+    }
 
-  .buy-number {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    text-decoration: none;
-    margin-left:45px;
-  }
+    .buy-number {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 45px;
+    }
 
-  .btn-consulting-mobile {
-    padding: 12px 32px;
-    border: none;
-    border-top: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    background-color: transparent;
-    width: 100%;
-  }
+    .btn-consulting-mobile {
+        padding: 12px 32px;
+        border: none;
+        border-top: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        background-color: transparent;
+        width: 100%;
+    }
 
-  .offer {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 34px;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-top: 40px;
-  }
-  .phone-icon {
-    height: 17px;
-    width: 12px;
+    .offer {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 34px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 40px;
+    }
+
+    .phone-icon {
+        height: 17px;
+        width: 12px;
 
 
-  }
+    }
 
-  .header-name {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    margin-right: 24px;
-    margin-bottom: 0;
-  }
+    .header-name {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        margin-right: 24px;
+        margin-bottom: 0;
+    }
 
-  .header-description {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    margin-bottom: 0;
-  }
-  .info {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    padding-top: 20px;
-    display: flex;
-    padding-left:0;
-  }
-  .Btn-logic {
-    margin-top: 60px;
-    border: none;
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 40px;
-    background: #faff17;
-    border-radius: 54px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    margin-bottom: 8px;
-  }
+    .header-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        margin-bottom: 0;
+    }
 
-  .Btn-text {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    background-color: transparent;
-    border: 2px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 54px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 40px;
-    margin: 0;
-  }
-.phone-block-header{
-  padding:0;
+    .info {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        padding-top: 20px;
+        display: flex;
+        padding-left: 0;
+    }
+
+    .Btn-logic {
+        margin-top: 60px;
+        border: none;
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+        background: #faff17;
+        border-radius: 54px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin-bottom: 8px;
+    }
+
+    .Btn-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 54px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+        display: block;
+        flex-direction: row;
+        margin-bottom: 8px;
+        margin-left: 0;
+        text-decoration: none;
+    }
+
+
+.phone-block-header {
+    padding: 0;
 }
-.phone-block-test{
-  padding:0;
+
+.phone-block-test {
+    padding: 0;
 }
-  .feature-name {
+
+.feature-name {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 25px;
     color: #ffffff;
-  }
+}
 
-  .feature-description {
+.feature-description {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
     width: 170px;
-  }
+}
 
-  .feature-line-mobile {
+.feature-line-mobile {
     height: 100px;
     width: 2px;
     background-color: #ffffff;
 
-  }
+}
 
-  .btn-header {
+.btn-header {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .btn-header-block {
+.btn-header-block {
     order: 2;
-  }
+}
 
-  .feature-header {
+.feature-header {
     order: 1;
-    display:flex;
+    display: flex;
     margin-top: 32px;
     justify-content: space-between;
-  }
+}
 
 
-
-  .line-second {
+.line-second {
     width: 100%;
     height: 2px;
     background-color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
 
-  }
+}
 
-  .features-adv {
+.features-adv {
     padding-top: 285px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .feature-item {
+.feature-item {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 100px;
-  }
+}
 
-  .img-about {
+.img-about {
     margin: 0;
-  }
+}
 
 
-  .name-about {
+.name-about {
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -537,33 +518,33 @@ body {
     color: #333333;
     text-align: center;
     margin-top: 20px;
-  }
+}
 
-  .description-about {
+.description-about {
     margin: 0;
     text-align: center;
-  }
+}
 
-  .calculating_section {
+.calculating_section {
     padding-top: 120px;
     margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
-  }
+}
 
-  .calculator-info {
+.calculator-info {
     display: block;
-  }
+}
 
-  .line {
+.line {
     width: 100%;
     height: 2px;
     background-color: #ffffff;
 
     display: none;
-  }
+}
 
-  .pdf-mobile {
+.pdf-mobile {
     display: flex;
     align-items: center;
     margin-top: 80px;
@@ -573,88 +554,88 @@ body {
     line-height: 24px;
     color: #333333;
     margin-bottom: 160px;
-  }
+}
 
-  .pdf-mobile p {
+.pdf-mobile p {
     margin: 0 0 0 16px;
-  }
+}
 
-  .pdf-pc {
+.pdf-pc {
     display: none;
-  }
+}
 
-  .slider {
+.slider {
     margin-bottom: 100px;
-  }
+}
 
-  .Day {
+.Day {
     text-align: center;
     padding: 12px;
     width: 100%;
-  }
+}
 
-  .slider-info {
+.slider-info {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .slider-text {
+.slider-text {
     order: 1;
-    margin:0 auto;
-  }
+    margin: 0 auto;
+}
 
-  .block-day {
+.block-day {
     margin-top: 15px;
-    margin-bottom:21px;
+    margin-bottom: 21px;
     align-items: center;
     display: flex;
     order: 2;
     width: 100%;
 
-  }
+}
 
-  .arrow {
+.arrow {
     display: none;
-  }
+}
 
-  .slider-name {
+.slider-name {
     margin-top: 40px;
     margin-bottom: 30px;
-  }
+}
 
-  .footer-line {
+.footer-line {
     display: none;
-  }
+}
 
-  .footer-date {
+.footer-date {
     display: none;
-  }
+}
 
-  .footer {
+.footer {
     display: flex;
     flex-direction: column;
-    padding-left:0;
-  }
+    padding-left: 0;
+}
 
-  .footer-links {
+.footer-links {
     order: 2;
     margin-bottom: 111px;
-  }
+}
 
-  .footer-button {
+.footer-button {
     order: 1;
 
-  }
+}
 
-  .benefit {
+.benefit {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 120px;
     align-content: center;
-  }
+}
 
-  .number-clinic-description {
+.number-clinic-description {
     margin-top: 4px;
     font-style: normal;
     font-weight: bold;
@@ -664,23 +645,23 @@ body {
     color: #333333;
     width: 200px;
     margin-bottom: 175px;
-  }
+}
 
-  .image-clinic {
+.image-clinic {
     width: 100%;
     height: auto;
     margin-bottom: 80px;
-  }
+}
 
-  .check-up-img {
+.check-up-img {
     width: 100%;
-  }
+}
 
-  .btn-consulting-pc {
+.btn-consulting-pc {
     display: none;
-  }
+}
 
-  .btn-footer {
+.btn-footer {
     justify-content: flex-end;
     font-style: normal;
     font-weight: bold;
@@ -695,9 +676,9 @@ body {
     margin: 70px 0 0 0;
     width: 100%;
 
-  }
+}
 
-  .links {
+.links {
     margin-top: 95px;
     font-style: normal;
     font-weight: normal;
@@ -709,18 +690,18 @@ body {
     flex-direction: column;
     text-align: center;
 
-  }
+}
 
-  .description-clinic {
+.description-clinic {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     color: #333333;
-  }
+}
 
 
-  .h1-clinic {
+.h1-clinic {
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -728,24 +709,23 @@ body {
     text-transform: uppercase;
     color: #333333;
     margin-bottom: 30px;
-  }
+}
 
 
-  .header-navigation {
+.header-navigation {
     padding: 0;
-  }
+}
 
 
-
-  .header-menu {
+.header-menu {
     display: flex;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 35px;
-  }
+}
 
-  .summary-description {
+.summary-description {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -753,12 +733,13 @@ body {
     color: #333333;
     margin-top: 12px;
     margin-bottom: 75px;
-  }
-  .Btn-section {
+}
+
+.Btn-section {
     padding: 20px 40px;
     background: #ff9933;
     border-radius: 54px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 160px;
     font-style: normal;
     font-weight: bold;
@@ -767,9 +748,10 @@ body {
     color: #ffffff;
     border: none;
     width: 100%;
-    margin-top:160px;
-  }
-  .btn-choice {
+    margin-top: 160px;
+}
+
+.btn-choice {
     margin-top: 28px;
     color: #ffffff;
     padding: 20px 40px;
@@ -781,22 +763,25 @@ body {
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
-  }
-  .benefit-text {
+}
+
+.benefit-text {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
     color: #333333;
     width: 600px;
-  }
-  .clinic-line {
+}
+
+.clinic-line {
     height: 3px;
     background-color: #ff9933;
     margin-top: 45px;
     width: 300px;
-  }
-  .number-clinic {
+}
+
+.number-clinic {
     margin-top: 24px;
     font-style: normal;
     font-weight: bold;
@@ -805,59 +790,70 @@ body {
     text-transform: uppercase;
     color: #ff9933;
     letter-spacing: 1px;
-  }
+}
 
-  .take-choice {
+.take-choice {
     margin-top: 120px;
     background-image: url(../assets/img/backgroundctamobile.png);
     background-repeat: no-repeat;
     height: 620px;
-  }
-  .benefit-line {
+}
+
+.benefit-line {
     width: 32px;
     height: 124px;
     background: #ff9933;
     margin-right: 30px;
-  }
-  .callback {
+}
+
+.callback {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     color: #333333;
-    margin-top:18px;
-  }
-  .down-footer{
+    margin-top: 18px;
+}
+
+.down-footer {
     margin-top: 12px;
-  }
-  .partners{
+}
+
+.partners {
     display: none;
-  }
-  .container-fix {
+}
+
+.container-fix {
     width: 327px;
-  }
-  .clinic-text-block{
-    padding-left:0;
+}
+
+.clinic-text-block {
+    padding-left: 0;
     margin: 0 auto;
-  }
-  .check-up-block{
-    margin:0 auto;
-    padding-left:0;
-    padding-right:0;
-  }
-  .clinic-padding-block{
-    padding:0;
-  }
-  .right-footer {
+}
+
+.check-up-block {
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.clinic-padding-block {
+    padding: 0;
+}
+
+.right-footer {
 
     margin-top: 100px;
 
-  }
-  .footer-phone {
+}
+
+.footer-phone {
     text-align: center;
     align-items: center;
-  }
-  .year{
+}
+
+.year {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -865,16 +861,18 @@ body {
     color: rgba(51, 51, 51, 0.4);
     text-align: center;
     margin-bottom: 40px;
-  }
-  .year-span{
+}
+
+.year-span {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
     color: rgba(51, 51, 51, 0.4);
     text-decoration: underline;
-  }
-  .alternative-tours{
+}
+
+.alternative-tours {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -882,8 +880,9 @@ body {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #333333;
-  }
-  .link-footer {
+}
+
+.link-footer {
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
@@ -891,11 +890,13 @@ body {
     line-height: 24px;
     color: #333333;
     margin-bottom: 20px;
-  }
-  .svg-footer {
+}
+
+.svg-footer {
     margin-right: 14px;
-  }
-  .phone-footer {
+}
+
+.phone-footer {
     margin-right: 15px;
     font-style: normal;
     font-weight: bold;
@@ -904,8 +905,9 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #333333;
-  }
-  .description-calculator {
+}
+
+.description-calculator {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -913,601 +915,657 @@ body {
     color: #333333;
     display: flex;
     justify-content: space-between;
-  }
-  .calculator-description-block {
+}
+
+.calculator-description-block {
     display: flex;
     justify-content: space-between;
-  }
-  .calculator-right-up{
-    margin-top:17px
-  }
-  .slider{
-    display:none;
-  }
-  .slide{
+}
+
+.calculator-right-up {
+    margin-top: 17px
+}
+
+.slider {
+    display: none;
+}
+
+.slide {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-right:30px;
+    margin-right: 30px;
     margin-top: 159px;
-  }
-  /*.container-fluid{*/
-  /*  padding-left:0;*/
-  /*  padding-right:0;*/
-  /*}*/
-  .clinic-text{
-    margin: 0 auto;
-  }
-  .check-up-percent{
-    width: 100%;
-  }
-  .slider-pic{
-    padding:0;
-    order:4;
-  }
-  .slider-description{
-    margin-bottom:21px;
-    order:3;
-  }
-.slider-text{
-  order:1;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 24px;
-color: #333333;
-  margin-left:0;
 }
-  .question-svg {
-   display:none;
-  }
+
+.clinic-text {
+    margin: 0 auto;
+}
+
+.check-up-percent {
+    width: 100%;
+}
+
+.slider-pic {
+    padding: 0;
+    order: 4;
+}
+
+.slider-description {
+    margin-bottom: 21px;
+    order: 3;
+}
+
+.slider-text {
+    order: 1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+    margin-left: 0;
+}
+
+.question-svg {
+    display: none;
+}
+
+.slider-name {
+    display: none;
+}
+
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 576px) {
-  .background-image {
-    background-image: url(./../assets/img/backgroundwomen.png);
-    background-repeat: no-repeat;
-    height: 905px;
-    width: 100%;
-    background-size: cover;
-  }
-  .phone-icon {
-    text-align: center;
-    width: 22px;
-    height: 28px;
-    vertical-align: middle;
-  }
-  .offer {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 68px;
-    line-height: 80px;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-top: 78px;
-    width: 100%;
+    .background-image {
+        background-image: url(./../assets/img/backgroundwomen.png);
+        background-repeat: no-repeat;
+        height: 905px;
+        width: 100%;
+        background-size: cover;
+    }
 
-  }
+    .phone-icon {
+        text-align: center;
+        width: 22px;
+        height: 28px;
+        vertical-align: middle;
+    }
 
-  .phone {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    text-decoration: none;
-    margin-left: 16px;
-    margin-right: 17px;
-    color: white;
-  }
+    .offer {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 68px;
+        line-height: 80px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 78px;
+        width: 100%;
 
-  .buy-number {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    color: #ffffff;
-    text-decoration: none;
-  }
+    }
 
-  .btn-consulting-mobile {
-    display: none;
-  }
-  .btn-consulting-mobile-block{
-    display:none;
-  }
-  .btn-consulting-pc {
-    padding: 12px 32px;
-    border: 2px solid #ffffff;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    background-color: transparent;
-    border-radius: 54px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+    .phone {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-decoration: none;
+        margin-left: 16px;
+        margin-right: 17px;
+        color: white;
+    }
 
-  .header-name {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-  }
+    .buy-number {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+        text-decoration: none;
+    }
 
-  .header-description {
-    margin-left: 52px;
-    margin-bottom: 52px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-  }
+    .btn-consulting-mobile {
+        display: none;
+    }
 
-  .Btn-logic {
-    border: none;
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 40px;
-    background: #faff17;
-    border-radius: 54px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    width: 210px;
-    margin-right: 52px;
-  }
+    .btn-consulting-mobile-block {
+        display: none;
+    }
 
-  .Btn-text {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    background-color: transparent;
-    border: none;
-    width: 210px;
-  }
+    .btn-consulting-pc {
+        padding: 12px 32px;
+        border: 2px solid #ffffff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        background-color: transparent;
+        border-radius: 54px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-  .btn-header-block {
-    display: flex;
-    order: 2;
-  }
+    .header-name {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+    }
 
-  .feature-header {
-    order: 1;
-    display: flex;
-    margin-top: 100px;
-  }
+    .header-description {
+        margin-left: 52px;
+        margin-bottom: 52px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+    }
 
-  .feature-name {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 54px;
-    line-height: 36px;
-    text-align: left;
-    color: #ffffff;
-  }
+    .Btn-logic {
+        border: none;
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+        background: #faff17;
+        border-radius: 54px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        width: 210px;
+        margin-right: 52px;
+    }
 
-  .feature-description {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    width: 200px;
-  }
+    .Btn-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        background-color: transparent;
+        border: none;
+        width: 210px;
+    }
 
-  .feature-line {
-    height: 2px;
-    background-color: #ffffff;
-    margin-left: 28px;
-    margin-right: 28px;
-  }
+    .btn-header-block {
+        display: flex;
+        order: 2;
+    }
 
-  .nav-bar-header {
-    display: flex;
-  }
+    .feature-header {
+        order: 1;
+        display: flex;
+        margin-top: 100px;
+    }
 
-  .calculating_section {
-    padding-top: 320px;
-    display:flex;
-  }
+    .feature-name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 36px;
+        text-align: left;
+        color: #ffffff;
+    }
 
-  .calculator-info {
-    display: flex;
-  }
+    .feature-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        width: 200px;
+    }
 
-  .line {
-    width: 100%;
-    height: 2px;
-    background-color: #ffffff;
-  }
+    .feature-line {
+        height: 2px;
+        background-color: #ffffff;
+        margin-left: 28px;
+        margin-right: 28px;
+    }
 
-  .pdf-pc {
-    display: flex;
-    align-items: center;
-    margin-top: 130px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    margin-bottom: 160px;
-  }
+    .nav-bar-header {
+        display: flex;
+    }
 
-  .pdf-pc p {
-    margin: 0 0 0 16px;
-  }
+    .calculating_section {
+        padding-top: 320px;
+        display: flex;
+    }
 
-  .pdf-mobile {
-    display: none;
-  }
+    .calculator-info {
+        display: flex;
+    }
 
-  .test-header {
-    display: flex;
-    justify-content: space-between;
-  }
+    .line {
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+    }
 
-  .slider {
-    display: flex;
-    margin-bottom: 300px;
-    align-content: space-between;
-  }
+    .pdf-pc {
+        display: flex;
+        align-items: center;
+        margin-top: 130px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin-bottom: 160px;
+    }
 
-  .Day {
-    text-align: center;
-    padding: 6px 40px;
-    order:2
-  }
+    .pdf-pc p {
+        margin: 0 0 0 16px;
+    }
 
-  .slider-text {
-    float: right;
-  }
+    .pdf-mobile {
+        display: none;
+    }
 
-  .block-day {
-    margin-top: 67px;
-    align-items: center;
-    display: flex;
-    justify-content: flex-end;
-  }
+    .test-header {
+        display: flex;
+        justify-content: space-between;
+    }
 
-  .arrow {
-    color: black;
-  }
+    .slider {
+        display: flex;
+        margin-bottom: 300px;
+        align-content: space-between;
+    }
 
-  .slider-name {
-    margin-top: 100px;
-    margin-bottom: 28px;
-  }
+    .Day {
+        text-align: center;
+        padding: 6px 40px;
+        order: 2
+    }
 
-  .footer-line {
-    margin-top: 270px;
-    height: 2px;
-    background-color: #333333;
-    transform: rotate(-90deg);
-    width: 270px;
-  }
+    .slider-text {
+        float: right;
+    }
 
-  .footer-date {
-    margin-top: 246px;
-  }
+    .block-day {
+        margin-top: 67px;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+    }
 
-  .benefit-text {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    color: #333333;
-    width: 600px;
-  }
+    .arrow {
+        color: black;
+    }
 
-  .footer {
-    display: flex;
-    justify-content: space-between;
-  }
+    .slider-name {
+        margin-top: 100px;
+        margin-bottom: 28px;
+    }
 
-  .benefit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:320px;
-  }
+    .footer-line {
+        margin-top: 270px;
+        height: 2px;
+        background-color: #333333;
+        transform: rotate(-90deg);
+        width: 270px;
+    }
 
-  .number-clinic-description {
-    margin-top: 4px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    text-transform: uppercase;
-    color: #333333;
-    width: 200px;
-  }
+    .footer-date {
+        margin-top: 246px;
+    }
 
-  .image-clinic {
-    width: 100%;
-    height: auto;
-  }
-  .clinic-block{
-    margin-top:320px;
-    padding-left: 0;
-  }
-  .check-up-img {
-    width: 100%;
-  }
+    .benefit-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #333333;
+        width: 600px;
+    }
 
-  .btn-footer {
-    margin-top: 52px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    border: 2px solid #333333;
-    box-sizing: border-box;
-    border-radius: 54px;
-    padding: 12px 32px;
-    background-color: transparent;
-  }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
 
-  .links {
-    margin-top: 230px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    text-decoration: none;
-    display: flex;
-flex-direction: column;
+    .benefit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 320px;
+    }
 
-  }
+    .number-clinic-description {
+        margin-top: 4px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #333333;
+        width: 200px;
+    }
 
-  .description-clinic {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    width: 470px;
-  }
+    .image-clinic {
+        width: 100%;
+        height: auto;
+    }
 
-  .slider-description {
-    width: 480px;
-    height: 250px;
-  }
+    .clinic-block {
+        margin-top: 320px;
+        padding-left: 0;
+    }
 
-  .h1-clinic {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 68px;
-    line-height: 80px;
-    text-transform: uppercase;
-    color: #333333;
-    width: 480px;
-  }
+    .check-up-img {
+        width: 100%;
+    }
 
-  .footer-links {
-margin-bottom: 200px;
-  }
+    .btn-footer {
+        margin-top: 52px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        border: 2px solid #333333;
+        box-sizing: border-box;
+        border-radius: 54px;
+        padding: 12px 32px;
+        background-color: transparent;
+    }
 
-  .link-footer {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-  }
+    .links {
+        margin-top: 230px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
 
-  .header-menu {
-    display: flex;
-    align-items: center;
-  }
+    }
 
-  .summary-description {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    color: #333333;
-    margin-top: 12px;
-    width: 380px;
-    margin-bottom: 160px;
-  }
-  .info {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    padding-top: 20px;
-    display: flex;
-  }
-  .up {
-    margin-bottom: 85px;
-  }
-  .Btn-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 40px;
-    background: #ff9933;
-    border-radius: 54px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 340px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    border: none;
-    width: 210px;
-    margin-top: 320px;
-  }
-  .btn-choice {
-    margin-top: 28px;
-    color: #ffffff;
-    padding: 20px 40px;
-    border: 2px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 54px;
-    width: 210px !important;
-    background-color: Transparent;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 24px;
+    .description-clinic {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        width: 470px;
+    }
 
-  }
+    .slider-description {
+        width: 480px;
+        height: 250px;
+    }
 
-  .name-about {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    text-transform: uppercase;
-    color: #333333;
-  }
-  .clinic-line {
-    height: 3px;
-    background-color: #ff9933;
-    margin-top: 156px;
-    width: 200px;
-  }
-  .number-clinic {
-    margin-top: 24px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 68px;
-    line-height: 80px;
-    text-transform: uppercase;
-    color: #ff9933;
-  }
-  .take-choice {
-    margin-top: 160px;
-    background-image: url(../assets/img/backgroundcta.png);
-    background-repeat: no-repeat;
-    height: 620px;
-  }
-  .benefit-line {
-    width: 32px;
-    height: 124px;
-    background: #ff9933;
-    margin-right: 40px;
+    .h1-clinic {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 68px;
+        line-height: 80px;
+        text-transform: uppercase;
+        color: #333333;
+        width: 480px;
+    }
 
-  }
-  .callback {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-    margin: 0;
-  }
+    .footer-links {
+        margin-bottom: 200px;
+    }
 
-  .right-footer {
-    display: flex;
-    margin-top: 230px;
-    justify-content: end;
-  }
-  .svg-footer {
-    margin-right: 15px;
-  }
-  .phone-footer {
-    margin-right: 20px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #333333;
-  }
-  .description-calculator {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #333333;
-  }
-  .calculator-description-block {
-    display: flex;
+    .link-footer {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+    }
 
-  }
+    .header-menu {
+        display: flex;
+        align-items: center;
+    }
 
-  .slider-row{
-    margin-top:330px;
-  }
+    .summary-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #333333;
+        margin-top: 12px;
+        width: 380px;
+        margin-bottom: 160px;
+    }
 
-  .slide{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-right:100px;
-  }
-  .mobile{
-    display:none;
-  }
-.slider-block{
-  display: flex;
-}
-  .check-up-block{
-    display: flex;
-  }
-  .question-svg {
-    width: 16px;
-    height: 16px;
-    margin-left: 12px;
-  }
-  .alternative-tours{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
-letter-spacing: 0.04em;
-    text-transform: uppercase;
-color: #333333;
-    margin-right: 250px;
-  }
-  .footer-phone {
-    text-align: center;
-    display: flex;
-    align-items: center;
-  }
-  .end-footer{
-    display:flex;
-    margin-bottom:60px ;
-  }
-  .year{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(51, 51, 51, 0.4);
-  }
-  .year-span{
-    text-decoration: underline;
-  }
-  .footer-block-line{
-    background-color: #333333;
-    width: 2px;
-    height: 270px;
-    margin-top: 167px;
-  }
-  .feature-line-pc{
-   background-color: #FFFFFF;
-    width: 2px;
+    .info {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        padding-top: 20px;
+        display: flex;
+    }
 
-  }
+    .up {
+        margin-bottom: 85px;
+    }
+
+    .Btn-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+        background: #ff9933;
+        border-radius: 54px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 340px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        border: none;
+        width: 210px;
+        margin-top: 320px;
+    }
+
+    .btn-choice {
+        margin-top: 28px;
+        color: #ffffff;
+        padding: 20px 40px;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 54px;
+        width: 210px !important;
+        background-color: Transparent;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 24px;
+
+    }
+
+    .name-about {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #333333;
+    }
+
+    .clinic-line {
+        height: 3px;
+        background-color: #ff9933;
+        margin-top: 156px;
+        width: 200px;
+    }
+
+    .number-clinic {
+        margin-top: 24px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 68px;
+        line-height: 80px;
+        text-transform: uppercase;
+        color: #ff9933;
+    }
+
+    .take-choice {
+        margin-top: 160px;
+        background-image: url(../assets/img/backgroundcta.png);
+        background-repeat: no-repeat;
+        height: 620px;
+    }
+
+    .benefit-line {
+        width: 32px;
+        height: 124px;
+        background: #ff9933;
+        margin-right: 40px;
+
+    }
+
+    .callback {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin: 0;
+    }
+
+    .right-footer {
+        display: flex;
+        margin-top: 230px;
+        justify-content: end;
+    }
+
+    .svg-footer {
+        margin-right: 15px;
+    }
+
+    .phone-footer {
+        margin-right: 20px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #333333;
+    }
+
+    .description-calculator {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+    }
+
+    .calculator-description-block {
+        display: flex;
+
+    }
+
+    .slider-row {
+        margin-top: 330px;
+    }
+
+    .slide {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-right: 100px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .slider-block {
+        display: flex;
+    }
+
+    .check-up-block {
+        display: flex;
+        padding: 0;
+    }
+
+    .question-svg {
+        width: 16px;
+        height: 16px;
+        margin-left: 12px;
+    }
+
+    .alternative-tours {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #333333;
+        margin-right: 250px;
+    }
+
+    .footer-phone {
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .end-footer {
+        display: flex;
+        margin-bottom: 60px;
+    }
+
+    .year {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(51, 51, 51, 0.4);
+    }
+
+    .year-span {
+        text-decoration: underline;
+    }
+
+    .footer-block-line {
+        background-color: #333333;
+        width: 2px;
+        height: 270px;
+        margin-top: 167px;
+    }
+
+    .feature-line-pc {
+        background-color: #FFFFFF;
+        width: 2px;
+        margin-right: 30px;
+
+
+    }
+
+    .slider-title {
+        display: none;
+    }
+
+    .slider-text {
+        display: none;
+    }
+
+    .slider-pic {
+        padding: 0;
+    }
 }
