@@ -358,7 +358,7 @@ body {
     .phone-icon {
         height: 17px;
         width: 12px;
-}
+    }
 
 
     .header-name {
@@ -543,7 +543,7 @@ body {
         display: none;
     }
 
-    .pdf-mobile {
+    .button-submit-mobile {
         display: flex;
         align-items: center;
         margin-top: 80px;
@@ -659,7 +659,6 @@ body {
     .btn-consulting-pc {
         display: none;
     }
-
 
 
     .btn-consulting-mobile:active {
@@ -818,6 +817,8 @@ body {
         line-height: 24px;
         color: #333333;
         margin-top: 18px;
+        border:none;
+        background-color: transparent;
     }
 
     .down-footer {
@@ -1019,6 +1020,18 @@ body {
         margin-left: 16px;
         margin-right: 17px;
         color: white;
+
+    }
+
+    .phone-icon{
+        background-image: url("../assets/img/phoneheader.svg");
+    }
+    .phone-header .phone:hover{
+        background-image: url("../assets/img/phone-header-fill.svg");
+        color:red;
+    }
+    .phone:hover{
+        color:#fff;
     }
 
     .buy-number {
@@ -1086,12 +1099,15 @@ body {
         width: 210px;
         margin-right: 52px;
     }
-    .Btn-section:hover{
-      background-color: #F38414;
+
+    .Btn-section:hover {
+        background-color: #F38414;
     }
-.Btn-section:active{
-    color: rgba(255, 255, 255, 0.6);
-}
+
+    .Btn-section:active {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
     .Btn-text {
         font-style: normal;
         font-weight: bold;
@@ -1158,24 +1174,33 @@ body {
         background-color: #ffffff;
     }
 
-    .pdf-pc {
-        display: flex;
-        align-items: center;
-        margin-top: 130px;
+
+
+
+    .button-submit {
+        border: none;
+        background-color: transparent;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
-        color: #333333;
+        display: flex;
+        align-items: center;
+        margin-top: 130px;
         margin-bottom: 160px;
+        color: #333333;
     }
-    .pdf-pc:hover{
-        color: #FF9933;
+    .button-submit span:hover{
 
     }
+    .button-submit:hover{
+        fill:#FF9933;
+        color:#FF9933;
+    }
 
-    .pdf-pc p {
-        margin: 0 0 0 16px;
+
+    .button-submit:active {
+        color: #F38414;
     }
 
     .pdf-mobile {
@@ -1212,13 +1237,19 @@ body {
 
     .arrow {
         color: black;
-        margin-left:100px;
+        margin-left: 100px;
+    }
+    .arrow-left:hover{
+        stroke: #F38414;
+    }
+    .arrow-right:hover{
+        stroke: #F38414;
     }
 
     .slider-name {
         margin-top: 100px;
         margin-bottom: 28px;
-        margin-left:100px
+        margin-left: 100px
     }
 
     .footer-line {
@@ -1292,11 +1323,13 @@ body {
         padding: 12px 32px;
         background-color: transparent;
     }
-    .btn-footer:hover{
+
+    .btn-footer:hover {
         background: #333333;
         color: #FFFFFF;
     }
-    .btn-footer:active{
+
+    .btn-footer:active {
         background: #333333;
         color: rgba(255, 255, 255, 0.6);
     }
@@ -1326,7 +1359,7 @@ body {
     .slider-description {
         width: 480px;
         height: 250px;
-        margin-left:100px;
+        margin-left: 100px;
     }
 
     .h1-clinic {
@@ -1467,6 +1500,8 @@ body {
         line-height: 24px;
         color: #333333;
         margin: 0;
+        border:none;
+        background-color: transparent;
     }
 
     .right-footer {
@@ -1593,22 +1628,27 @@ body {
     .slider-pic {
         padding: 0;
     }
-    .phone-icon:hover{
+
+    .phone-icon:hover {
         fill: #ffffff
 
     }
+
     .btn-consulting-pc:active {
         color: rgba(51, 51, 51, 0.6);
     }
-    .btn-consulting-pc:hover{
+
+    .btn-consulting-pc:hover {
         background: #FFFFFF;
         color: #333333;
     }
-    .header-menu:hover{
+
+    .header-menu:hover {
 
     }
-  .slider-text-block{
-      margin-left:100px
-  }
+
+    .slider-text-block {
+        margin-left: 100px
+    }
 
 }
