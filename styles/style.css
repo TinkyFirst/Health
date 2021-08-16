@@ -370,6 +370,7 @@ body {
         color: #ffffff;
         background-color: transparent;
         width: 100%;
+        text-align: left;
     }
 
     .offer {
@@ -1082,19 +1083,26 @@ body {
         font-weight: bold;
         font-size: 16px;
         line-height: 24px;
-         text-transform: uppercase;
-         color: #333333;
+        text-transform: uppercase;
+        color: #333333;
+        text-decoration: none;
+        margin-left: 16px;
+        margin-bottom: 0;
     }
     .phone-icon-fix{
         fill:#111111;
         stroke: #111111;
     }
     .buy-number-fixed{
+        font-family: Euclid Square, sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 24px;
         color: #333333;
+        text-decoration: none;
+        margin-left: 45px;
+        text-transform: none;
     }
     .btn-consulting-mobile-fixed{
         padding: 12px 32px;
@@ -1108,6 +1116,7 @@ body {
         color: #333333;
         background-color: transparent;
         width: 100%;
+        text-align: left;
     }
 }
 

@@ -6,7 +6,7 @@ window.onscroll = function showHeader() {
     var BuyNumber = document.querySelector('.buy-number');
     var BtnConsulting = document.querySelector('.btn-consulting-mobile')
 
-    if (window.pageYOffset > 200) {
+    if (window.pageYOffset > 500) {
         header.classList.add('headerMenu-fixed, header-text-fix');
         headerNumber.classList.add('phone-fixed');
         headerIcon.classList.add('phone-icon-fix');
