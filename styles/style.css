@@ -333,6 +333,7 @@ body {
         width: 100%;
 
     }
+
     .phone {
         font-style: normal;
         font-weight: bold;
@@ -389,10 +390,11 @@ body {
         vertical-align: center;
     }
 
-  .phone-header{
-      display: flex;
-      align-items: center;
-  }
+    .phone-header {
+        display: flex;
+        align-items: center;
+    }
+
     .header-name {
         font-style: normal;
         font-weight: normal;
@@ -587,20 +589,22 @@ body {
         margin-bottom: 160px;
     }
 
-    .pdf-mobile-a{
+    .pdf-mobile-a {
         font-size: 16px;
         line-height: 24px;
         color: #333333 !important;
         text-decoration: none;
 
     }
-    .pdf-mobile:hover{
+
+    .pdf-mobile:hover {
         font-size: 16px;
         line-height: 24px;
         color: #333333;
         text-decoration: none;
 
     }
+
     .pdf-mobile p {
         margin: 0 0 0 16px;
     }
@@ -1029,7 +1033,6 @@ body {
     }
 
 
-
     .slider-text {
         order: 1;
 
@@ -1049,15 +1052,62 @@ body {
         display: none;
     }
 
-.headerMenu{
-    background-color: #111111;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%;
-    transition: all .3s ease;
-}
+    .headerMenu {
+
+
+    }
+
+    .headerMenu-fixed {
+        margin-bottom: 110px;
+        background-color: white;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #333333;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: all .3s ease;
+    }
+
     .headerMenu.out {
         transform: translateY(-100%);
+    }
+
+    .phone-fixed {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+         text-transform: uppercase;
+         color: #333333;
+    }
+    .phone-icon-fix{
+        fill:#111111;
+        stroke: #111111;
+    }
+    .buy-number-fixed{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .btn-consulting-mobile-fixed{
+        padding: 12px 32px;
+        border: none;
+        border-top: 2px solid #333333;
+        border-bottom: 2px solid #333333;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        background-color: transparent;
+        width: 100%;
     }
 }
 
