@@ -378,7 +378,7 @@ body {
         line-height: 34px;
         text-transform: uppercase;
         color: #ffffff;
-        margin-top: 40px;
+        margin-top: 110px;
     }
 
     .phone-icon {
@@ -1049,6 +1049,16 @@ body {
         display: none;
     }
 
+.headerMenu{
+    background-color: #111111;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    transition: all .3s ease;
+}
+    .headerMenu.out {
+        transform: translateY(-100%);
+    }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
