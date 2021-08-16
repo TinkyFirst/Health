@@ -2,12 +2,12 @@ window.onscroll = function showHeader() {
     var header = document.querySelector('.headerMenu');
     var headerNumber = document.querySelector('.phone');
     var headerIcon = document.querySelector('.phone-icon');
-    var headerNumber = document.querySelector('.phone');
     var BuyNumber = document.querySelector('.buy-number');
-    var BtnConsulting = document.querySelector('.btn-consulting-mobile')
+    var BtnConsulting = document.querySelector('.btn-consulting-mobile');
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (window.pageYOffset > 500) {
-        header.classList.add('headerMenu-fixed, header-text-fix');
+    if (window.pageYOffset > 200) {
+        header.classList.add('headerMenu-fixed');
         headerNumber.classList.add('phone-fixed');
         headerIcon.classList.add('phone-icon-fix');
         BuyNumber.classList.add('buy-number-fixed');
@@ -21,5 +21,6 @@ window.onscroll = function showHeader() {
         BtnConsulting.classList.add('btn-consulting-mobile-fixed');
 
     }
+    console.log(scrollTop)
 }
 
