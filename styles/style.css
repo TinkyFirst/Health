@@ -8,7 +8,8 @@ div,
 p,
 button,
 a,
-span {
+span,
+li{
     font-family: Euclid Square, serif;
 }
 
@@ -873,9 +874,10 @@ body {
         font-size: 16px;
         line-height: 24px;
         color: #333333;
-        margin-top: 18px;
         border: none;
         background-color: transparent;
+        margin: 0 auto;
+
     }
 
     .down-footer {
@@ -913,7 +915,9 @@ body {
 
     .footer-phone {
         text-align: center;
-        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 18px;
     }
 
     .year {
@@ -1129,6 +1133,13 @@ body {
 
     .visible{
         opacity: 1;
+    }
+    li{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #333333;
     }
 
 }
@@ -1709,6 +1720,7 @@ body {
         display: flex;
         margin-top: 230px;
         justify-content: end;
+        text-align: center;
     }
 
     .svg-footer {
@@ -2088,6 +2100,13 @@ display: none;
 
     .visible{
         opacity: 1;
+    }
+    li{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
     }
 
 }
