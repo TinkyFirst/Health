@@ -596,7 +596,7 @@ body {
     }
 
     .pdf-mobile-a {
-        font-size: 16px;
+        font-size: 12px;
         line-height: 24px;
         color: #333333 !important;
         text-decoration: none;
@@ -617,6 +617,7 @@ body {
 
     .pdf-pc {
         display: none;
+
     }
 
     .slider {
@@ -998,7 +999,6 @@ body {
     .slider {
         display: none;
     }
-
     .slide {
         align-items: center;
         display: flex;
@@ -1082,6 +1082,10 @@ body {
         left: 0;
         width: 100%;
         transition: all .3s ease;
+    }
+    .svg-icon-pdf{
+        margin-right: 8px;
+
     }
 
     .headerMenu.out {
@@ -2114,5 +2118,12 @@ display: none;
     }
     .second-number-block{
         padding-left:165px;
+    }
+    .pdf-pc{
+        width: 420px;
+    }
+    .svg-icon-pdf{
+        margin-right: 19px;
+
     }
 }
