@@ -9,7 +9,7 @@ p,
 button,
 a,
 span,
-li{
+li {
     font-family: Euclid Square, serif;
 }
 
@@ -70,7 +70,8 @@ body {
     margin: 0 0 0 52px;
     text-decoration: none;
 }
-.Btn-text:hover{
+
+.Btn-text:hover {
     color: #FF9933;
 }
 
@@ -296,6 +297,7 @@ body {
     margin-right: 40px;
     cursor: pointer;
 }
+
 /* классы для js */
 .svh-arrow-color {
     transition: all .1s ease-out;
@@ -316,6 +318,7 @@ body {
 .svh-arrow-color:active {
     fill: #9b5816;
 }
+
 /* -------------------------------- */
 .arrow-right {
     cursor: pointer;
@@ -392,7 +395,7 @@ body {
         display: flex;
         align-items: center;
         vertical-align: center;
-        fill:white;
+        fill: white;
     }
 
     .phone-header {
@@ -999,6 +1002,7 @@ body {
     .slider {
         display: none;
     }
+
     .slide {
         align-items: center;
         display: flex;
@@ -1063,9 +1067,14 @@ body {
         display: none;
     }
 
-    .headerMenu {
 
+    .svg-icon-pdf {
+        margin-right: 8px;
 
+    }
+
+    .headerMenu.out {
+        transform: translateY(-100%);
     }
 
     .headerMenu-fixed {
@@ -1083,14 +1092,6 @@ body {
         width: 100%;
         transition: all .3s ease;
     }
-    .svg-icon-pdf{
-        margin-right: 8px;
-
-    }
-
-    .headerMenu.out {
-        transform: translateY(-100%);
-    }
 
     .phone-fixed {
         font-style: normal;
@@ -1103,11 +1104,13 @@ body {
         margin-left: 16px;
         margin-bottom: 0;
     }
-    .phone-icon-fix{
-        fill:#111111;
+
+    .phone-icon-fix {
+        fill: #111111;
         stroke: #111111;
     }
-    .buy-number-fixed{
+
+    .buy-number-fixed {
         font-family: Euclid Square, sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -1118,7 +1121,8 @@ body {
         margin-left: 45px;
         text-transform: none;
     }
-    .btn-consulting-mobile-fixed{
+
+    .btn-consulting-mobile-fixed {
         padding: 12px 32px;
         border: none;
         border-top: 2px solid #333333;
@@ -1132,14 +1136,16 @@ body {
         width: 100%;
         text-align: left;
     }
-    .hidden{
+
+    .hidden {
         opacity: 0;
     }
 
-    .visible{
+    .visible {
         opacity: 1;
     }
-    li{
+
+    li {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -1198,8 +1204,6 @@ body {
     }
 
 
-
-
     .buy-number {
         font-style: normal;
         font-weight: normal;
@@ -1208,10 +1212,12 @@ body {
         color: #ffffff;
         text-decoration: none;
     }
-.buy-number:hover{
-    color:#FF9933;
 
-}
+    .buy-number:hover {
+        color: #FF9933;
+
+    }
+
     .btn-consulting-mobile {
         display: none;
     }
@@ -1268,10 +1274,12 @@ body {
         width: 210px;
         margin-right: 52px;
     }
-.Btn-logic:hover{
-    background-color: #333333;
-    color: #FAFF17;
-}
+
+    .Btn-logic:hover {
+        background-color: #333333;
+        color: #FAFF17;
+    }
+
     .Btn-section:hover {
         background-color: #F38414;
     }
@@ -1347,8 +1355,6 @@ body {
     }
 
 
-
-
     .button-submit {
         border: none;
         background-color: transparent;
@@ -1363,7 +1369,8 @@ body {
         color: #333333;
     }
 
-    .button-submit span:hover {}
+    .button-submit span:hover {
+    }
 
     .button-submit:hover {
         fill: #FF9933;
@@ -1395,7 +1402,8 @@ body {
         padding: 6px 40px;
         order: 2
     }
-    .Day:hover{
+
+    .Day:hover {
         color: #F38414;
         border-color: #F38414;;
     }
@@ -1494,12 +1502,12 @@ body {
     @keyframes image {
         0% {
             opacity: 0;
-            transform: translate(-1000px,0%);
+            transform: translate(-1000px, 0%);
         }
 
         100% {
             opacity: 1;
-            transform: translate(0px,0%);
+            transform: translate(0px, 0%);
         }
     }
 
@@ -1594,7 +1602,8 @@ body {
         line-height: 24px;
         color: #333333;
     }
-    .link-footer:hover{
+
+    .link-footer:hover {
         color: #FF9933;
     }
 
@@ -1664,11 +1673,13 @@ body {
         line-height: 24px;
 
     }
-    .btn-choice:hover{
+
+    .btn-choice:hover {
         background-color: white;
         color: #333333;
     }
-    .btn-choice:active{
+
+    .btn-choice:active {
         color: rgba(51, 51, 51, 0.6);
     }
 
@@ -1860,12 +1871,12 @@ body {
         color: #333333;
     }
 
-    .header-menu:hover {}
+    .header-menu:hover {
+    }
 
     .slider-text-block {
         margin-left: 100px
     }
-
 
 
     .first-block {
@@ -1874,7 +1885,7 @@ body {
         background-color: #FF9933;
         margin: 0 auto;
         border-radius: 30px;
- display: none;
+        display: none;
     }
 
     .checkbox {
@@ -2033,11 +2044,11 @@ body {
         border-radius: 30px;
         width: 1000px;
         height: 268px;
-       margin: 0 auto;
+        margin: 0 auto;
         position: fixed;
         left: 0;
         top: 0;
-display: none;
+        display: none;
         z-index: 999;
     }
 
@@ -2054,76 +2065,161 @@ display: none;
         text-transform: uppercase;
         color: #FFFFFF;
     }
-    .thanks-description{
+
+    .thanks-description {
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
-         color: #FFFFFF;
+        color: #FFFFFF;
     }
-    .hidden{
-        opacity:0;
-    }
-    .visible{
-        opacity:1;
-    }
-    .path-img-second:hover{
-        fill:red;
-    }
-    .path-second:hover{
-        fill:red;
-    }
-    .phone-header{
-        fill:white;
-        color: white;
-    }
-    .phone-header:hover{
-       fill:#FF9933;
-        color:#FF9933;
 
-    }
-.phone-header:active{
-    color: rgba(255, 153, 51, 0.6);
-}
-
-.footer-phone{
-    color:#333333;
-}
-    .footer-phone:hover{
-        fill:#FF9933;
-        color:#FF9933;
-    }
-    .footer-phone:active{
-        color: rgba(255, 153, 51, 0.6);
-    }
-    .callback:hover{
-        color:#FF9933;
-    }
-    .right-footer-flex{
-        display: flex;
-    }
-    .hidden{
+    .hidden {
         opacity: 0;
     }
 
-    .visible{
+    .visible {
         opacity: 1;
     }
-    li{
+
+    .path-img-second:hover {
+        fill: red;
+    }
+
+    .path-second:hover {
+        fill: red;
+    }
+
+    .phone-header {
+        fill: white;
+        color: white;
+    }
+
+    .phone-header:hover {
+        fill: #FF9933;
+        color: #FF9933;
+
+    }
+
+    .phone-header:active {
+        color: rgba(255, 153, 51, 0.6);
+    }
+
+    .footer-phone {
+        color: #333333;
+    }
+
+    .footer-phone:hover {
+        fill: #FF9933;
+        color: #FF9933;
+    }
+
+    .footer-phone:active {
+        color: rgba(255, 153, 51, 0.6);
+    }
+
+    .callback:hover {
+        color: #FF9933;
+    }
+
+    .right-footer-flex {
+        display: flex;
+    }
+
+    .hidden {
+        opacity: 0;
+    }
+
+    .visible {
+        opacity: 1;
+    }
+
+    li {
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
         line-height: 24px;
         color: #333333;
     }
-    .second-number-block{
-        padding-left:165px;
+
+    .second-number-block {
+        padding-left: 165px;
     }
-    .pdf-pc{
+
+    .pdf-pc {
         width: 420px;
     }
-    .svg-icon-pdf{
+
+    .svg-icon-pdf {
         margin-right: 19px;
 
+    }
+
+    .headerMenu.out {
+        transform: translateY(-100%);
+    }
+
+    .headerMenu-fixed {
+        margin-bottom: 110px;
+        background-color: white;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #333333;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: all .3s ease;
+    }
+
+    .phone-fixed {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #333333;
+        text-decoration: none;
+        margin-left: 16px;
+        margin-bottom: 0;
+    }
+
+    .phone-icon-fix {
+        fill: #111111;
+        stroke: #111111;
+    }
+
+    .phone-icon-fix {
+        fill: #111111;
+        stroke: #111111;
+    }
+
+    .buy-number-fixed {
+        font-family: Euclid Square, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        text-decoration: none;
+        margin-left: 45px;
+        text-transform: none;
+    }
+
+    .btn-consulting-pc-fixed {
+        padding: 12px 32px;
+        border: 2px solid #333333;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        background-color: transparent;
+        border-radius: 54px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }

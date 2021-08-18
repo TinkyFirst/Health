@@ -5,6 +5,7 @@ window.onscroll = function showHeader() {
     var BuyNumber = document.querySelector('.buy-number');
     var BtnConsulting = document.querySelector('.btn-consulting-mobile');
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    var BtnConsultingPc = document.querySelector('.btn-consulting-pc');
 
     if (window.pageYOffset > 200) {
         header.classList.add('headerMenu-fixed');
@@ -12,6 +13,7 @@ window.onscroll = function showHeader() {
         headerIcon.classList.add('phone-icon-fix');
         BuyNumber.classList.add('buy-number-fixed');
         BtnConsulting.classList.add('btn-consulting-mobile-fixed');
+        BtnConsultingPc.classList.add('btn-consulting-pc-fixed');
 
     } else {
         header.classList.add('headerMenu-fixed');
@@ -19,8 +21,8 @@ window.onscroll = function showHeader() {
         headerIcon.classList.add('phone-icon-fix');
         BuyNumber.classList.add('buy-number-fixed');
         BtnConsulting.classList.add('btn-consulting-mobile-fixed');
+        BtnConsultingPc.classList.add('btn-consulting-pc-fixed');
 
     }
     console.log(scrollTop)
 }
-
