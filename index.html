@@ -324,8 +324,8 @@
 
 
 </section>
-<section post>
-    <div class="container container-fix">
+<section>
+    <div class="container container-fix post">
         <div class="row">
             <button class="Btn-section ">Оставить заявку</button>
         </div>
@@ -636,7 +636,8 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="./script/sticky.js"></script>
 <script src="./script/header-fixed.js"></script>
-<script src="./assets/files/viewportchecker.js"></script>
+<!--<script src="./assets/files/viewportchecker.js"></script>-->
+<!--<script src="script/viewportchecker.js"></script>-->
 
 <script src="./script/header-fixed.js"></script>
 <script src="./script/slider.js"></script>
@@ -644,10 +645,12 @@
     jQuery(document).ready(function() {
         jQuery('.post').addClass("hidden").viewportChecker({
             classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
-            offset: 100
+            offset: 200
         });
     });
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.8/jquery.viewportchecker.min.js" integrity="sha512-FRX6MYITclzDyyMmSQLgZoZTfE+GLzAQpjs15adVZMY6AqhsrBLx8UZwp4FoqrrRFWY9TiaPwja7EY5fk309vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </body>
 
 
