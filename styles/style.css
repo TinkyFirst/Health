@@ -69,7 +69,9 @@ body {
     margin: 0 0 0 52px;
     text-decoration: none;
 }
-
+.Btn-text:hover{
+    color: #FF9933;
+}
 
 .feature-name {
     font-style: normal;
@@ -443,6 +445,7 @@ body {
         color: #333333;
         margin-bottom: 8px;
     }
+
 
     .Btn-text {
         font-style: normal;
@@ -964,6 +967,7 @@ body {
         text-transform: uppercase;
         text-decoration: none;
         color: #333333;
+
     }
 
     .description-calculator {
@@ -1118,6 +1122,14 @@ body {
         width: 100%;
         text-align: left;
     }
+    .hidden{
+        opacity: 0;
+    }
+
+    .visible{
+        opacity: 1;
+    }
+
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -1157,7 +1169,6 @@ body {
         text-decoration: none;
         margin-left: 16px;
         margin-right: 17px;
-        color: white;
         margin-top: 0;
         margin-bottom: 0;
 
@@ -1180,7 +1191,10 @@ body {
         color: #ffffff;
         text-decoration: none;
     }
+.buy-number:hover{
+    color:#FF9933;
 
+}
     .btn-consulting-mobile {
         display: none;
     }
@@ -1237,7 +1251,10 @@ body {
         width: 210px;
         margin-right: 52px;
     }
-
+.Btn-logic:hover{
+    background-color: #333333;
+    color: #FAFF17;
+}
     .Btn-section:hover {
         background-color: #F38414;
     }
@@ -1360,6 +1377,10 @@ body {
         text-align: center;
         padding: 6px 40px;
         order: 2
+    }
+    .Day:hover{
+        color: #F38414;
+        border-color: #F38414;;
     }
 
     .slider-text {
@@ -1553,6 +1574,9 @@ body {
         line-height: 24px;
         color: #333333;
     }
+    .link-footer:hover{
+        color: #FF9933;
+    }
 
     .header-menu {
         display: flex;
@@ -1619,6 +1643,13 @@ body {
         font-size: 15px;
         line-height: 24px;
 
+    }
+    .btn-choice:hover{
+        background-color: white;
+        color: #333333;
+    }
+    .btn-choice:active{
+        color: rgba(51, 51, 51, 0.6);
     }
 
     .name-about {
@@ -1691,7 +1722,8 @@ body {
         line-height: 36px;
         text-transform: uppercase;
         text-decoration: none;
-        color: #333333;
+        margin-bottom: 0;
+
     }
 
     .description-calculator {
@@ -1796,10 +1828,6 @@ body {
 
     .slider-pic {
         padding: 0;
-    }
-
-    .phone-icon:hover {
-        fill: #ffffff
     }
 
     .btn-consulting-pc:active {
@@ -2024,4 +2052,41 @@ display: none;
     .path-second:hover{
         fill:red;
     }
+    .phone-header{
+        fill:white;
+        color: white;
+    }
+    .phone-header:hover{
+       fill:#FF9933;
+        color:#FF9933;
+
+    }
+.phone-header:active{
+    color: rgba(255, 153, 51, 0.6);
+}
+
+.footer-phone{
+    color:#333333;
+}
+    .footer-phone:hover{
+        fill:#FF9933;
+        color:#FF9933;
+    }
+    .footer-phone:active{
+        color: rgba(255, 153, 51, 0.6);
+    }
+    .callback:hover{
+        color:#FF9933;
+    }
+    .right-footer-flex{
+        display: flex;
+    }
+    .hidden{
+        opacity: 0;
+    }
+
+    .visible{
+        opacity: 1;
+    }
+
 }
