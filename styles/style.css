@@ -681,6 +681,7 @@ body {
 
     .footer-button {
         order: 1;
+        text-align: center;
 
     }
 
@@ -1542,11 +1543,13 @@ body {
         line-height: 24px;
         color: #333333;
         width: 470px;
+        margin-left: 165px;
+        margin-top: 32px;
     }
 
     .slider-description {
         width: 480px;
-        height: 250px;
+        height: 350px;
         margin-left: 100px;
     }
 
@@ -1571,7 +1574,8 @@ body {
         line-height: 80px;
         text-transform: uppercase;
         color: #333333;
-        width: 480px;
+        width: 650px;
+        padding-left: 165px;
     }
 
     .footer-links {
@@ -1677,7 +1681,7 @@ body {
         height: 3px;
         background-color: #ff9933;
         margin-top: 156px;
-        width: 200px;
+        width: 448px;
     }
 
     .number-clinic {
@@ -2108,5 +2112,7 @@ display: none;
         line-height: 24px;
         color: #333333;
     }
-
+    .second-number-block{
+        padding-left:165px;
+    }
 }
