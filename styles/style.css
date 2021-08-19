@@ -532,11 +532,12 @@ body {
     }
 
     .features-adv {
-        padding-top: 285px;
+        padding-top: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-transform: uppercase;
     }
 
     .feature-item {
@@ -1074,6 +1075,7 @@ body {
         font-size: 24px;
         line-height: 24px;
         color: #333333;
+        text-transform: uppercase;
         margin-left: 0;
     }
 
