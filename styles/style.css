@@ -333,7 +333,7 @@ body {
 
 @media (max-width: 575px) {
     .background-image {
-        background-image: url(./../assets/img/backgroundwomen.png);
+        background-image: url(./../assets/img/header-mobile.jpg);
         background-repeat: no-repeat;
         height: 740px;
         width: 100%;
@@ -2216,21 +2216,21 @@ body {
         margin-bottom: 10px;
     }
     .btn-consulting-pc-fixed:hover{
-background-color: #333333;
+        background-color: #333333;
         color:white;
     }
-.phone-header-fixed:hover{
-    fill: #FF9933 ;
-    color: #FF9933 ;
-}
-.feature-item{
-    padding-left: 90px;
-}
-.line-fix{
-    width: 100%;
-    height: 2px;
-    background-color: #333333;
-}
+    .phone-header-fixed:hover{
+        fill: #FF9933 ;
+        color: #FF9933 ;
+    }
+    .feature-item{
+        padding-left: 90px;
+    }
+    .line-fix{
+        width: 100%;
+        height: 2px;
+        background-color: #333333;
+    }
     .p-choice {
         padding-top: 160px;
         font-style: normal;
