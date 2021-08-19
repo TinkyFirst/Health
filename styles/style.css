@@ -93,32 +93,7 @@ body {
     display: flex;
     align-items: center;
 }
-#mouse-scroll {position:relative;left:50%;top:20px;-webkit-transform:translateX(-50%);z-index:9999; display: block;width: 1px;padding-right: 20px;}
-#mouse-scroll span {display:block;width:8px;height:8px;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);border-right:2px solid #333333;border-bottom:2px solid #333333;margin:0 0 3px 5px}
-#mouse-scroll .unu {margin-top:6px}
-#mouse-scroll .unu, #mouse-scroll .doi, #mouse-scroll .trei {-webkit-animation:mouse-scroll 1s infinite;-moz-animation:mouse-scroll 1s infinite}
-#mouse-scroll .unu {-webkit-animation-delay:.1s;-moz-animation-delay:.1s;-webkit-animation-direction:alternate}
-#mouse-scroll .doi {-webkit-animation-delay:.2s;-moz-animation-delay:.2s;-webkit-animation-direction:alternate}
-#mouse-scroll .trei {-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-webkit-animation-direction:alternate}
-#mouse-scroll .mouse {height:30px;width:20px;border-radius:10px;-webkit-transform:none;-ms-transform:none;transform:none;border:2px solid #333333;top:170px}
-#mouse-scroll .wheel {height:8px;width:3px;display:block;margin:5px auto;background:#333333;position:relative}
-#mouse-scroll .wheel {-webkit-animation:mouse-wheel 1.2s ease infinite;-moz-animation:mouse-wheel 1.2s ease infinite}
 
-
-@-webkit-keyframes mouse-wheel {
-    0% {opacity:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}
-    100% {opacity:0;-webkit-transform:translateY(6px);-ms-transform:translateY(6px);transform:translateY(6px)}
-}
-@-webkit-keyframes mouse-scroll {
-    0% {opacity:0}
-    50% {opacity:.5}
-    100% {opacity:1}
-}
-@keyframes mouse-scroll {
-    0% {opacity:0}
-    50% {opacity:.5}
-    100% {opacity:1}
-}
 
 /*                            CALCULATOR                             */
 .calculating_section {
@@ -357,6 +332,32 @@ body {
 /*             FOOTER      */
 
 @media (max-width: 575px) {
+    #mouse-scroll {position:relative;left:50%;top:20px;-webkit-transform:translateX(-50%);z-index:9999; display: block;width: 1px;padding-right: 20px;}
+    #mouse-scroll span {display:block;width:8px;height:8px;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);border-right:2px solid #333333;border-bottom:2px solid #333333;margin:0 0 3px 5px}
+    #mouse-scroll .unu {margin-top:6px}
+    #mouse-scroll .unu, #mouse-scroll .doi, #mouse-scroll .trei {-webkit-animation:mouse-scroll 1s infinite;-moz-animation:mouse-scroll 1s infinite}
+    #mouse-scroll .unu {-webkit-animation-delay:.1s;-moz-animation-delay:.1s;-webkit-animation-direction:alternate}
+    #mouse-scroll .doi {-webkit-animation-delay:.2s;-moz-animation-delay:.2s;-webkit-animation-direction:alternate}
+    #mouse-scroll .trei {-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-webkit-animation-direction:alternate}
+    #mouse-scroll .mouse {height:30px;width:20px;border-radius:10px;-webkit-transform:none;-ms-transform:none;transform:none;border:2px solid #333333;top:170px}
+    #mouse-scroll .wheel {height:8px;width:3px;display:block;margin:5px auto;background:#333333;position:relative}
+    #mouse-scroll .wheel {-webkit-animation:mouse-wheel 1.2s ease infinite;-moz-animation:mouse-wheel 1.2s ease infinite}
+
+
+    @-webkit-keyframes mouse-wheel {
+        0% {opacity:1;-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}
+        100% {opacity:0;-webkit-transform:translateY(6px);-ms-transform:translateY(6px);transform:translateY(6px)}
+    }
+    @-webkit-keyframes mouse-scroll {
+        0% {opacity:0}
+        50% {opacity:.5}
+        100% {opacity:1}
+    }
+    @keyframes mouse-scroll {
+        0% {opacity:0}
+        50% {opacity:.5}
+        100% {opacity:1}
+    }
     .background-image {
         background-image: url(./../assets/img/header-mobile.jpg);
         background-repeat: no-repeat;
@@ -2278,5 +2279,8 @@ body {
         align-items: flex-end;
         margin-right: 80px;
 
+    }
+    #mouse-scroll{
+        display: none;
     }
 }
