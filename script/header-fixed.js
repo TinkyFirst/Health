@@ -7,6 +7,7 @@ window.onscroll = function showHeader() {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     var BtnConsultingPc = document.querySelector('.btn-consulting-pc');
     var PhoneHeader = document.querySelector('.phone-header')
+    var Line = document.querySelector('.line')
 
     if (window.pageYOffset > 1000) {
         header.classList.add('headerMenu-fixed');
@@ -16,6 +17,7 @@ window.onscroll = function showHeader() {
         BtnConsulting.classList.add('btn-consulting-mobile-fixed');
         BtnConsultingPc.classList.add('btn-consulting-pc-fixed');
         PhoneHeader.classList.add('phone-header-fixed');
+        Line.classList.add('line-fix');
 
 
     } else {
@@ -25,6 +27,7 @@ window.onscroll = function showHeader() {
         BuyNumber.classList.remove('buy-number-fixed');
         BtnConsulting.classList.remove('btn-consulting-mobile-fixed');
         BtnConsultingPc.classList.remove('btn-consulting-pc-fixed');
+        Line.classList.remove('line-fix');
 
     }
     console.log(scrollTop)
