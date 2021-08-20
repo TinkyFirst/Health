@@ -331,6 +331,8 @@ body {
 
 /*             FOOTER      */
 
+
+
 @media (max-width: 575px) {
     #mouse-scroll {position:relative;left:50%;top:20px;-webkit-transform:translateX(-50%);z-index:9999; display: block;width: 1px;padding-right: 20px;}
     #mouse-scroll span {display:block;width:8px;height:8px;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);border-right:2px solid #333333;border-bottom:2px solid #333333;margin:0 0 3px 5px}
@@ -438,6 +440,13 @@ body {
         margin-right: 24px;
         margin-bottom: 0;
     }
+    .p-description{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+    }
 
     .header-description {
         font-style: normal;
@@ -521,7 +530,8 @@ body {
         font-size: 16px;
         line-height: 24px;
         color: #ffffff;
-        width: 170px;
+        min-width: 150px;
+        max-width: 170px;
     }
 
     .feature-line-mobile {
@@ -596,8 +606,7 @@ body {
     .calculating_section {
         padding-top: 120px;
         margin: 0 auto;
-        padding-left: 0;
-        padding-right: 0;
+
     }
 
     .calculator-info {
@@ -712,7 +721,6 @@ body {
     .footer {
         display: flex;
         flex-direction: column;
-        padding-left: 0;
     }
 
     .footer-links {
@@ -882,7 +890,7 @@ body {
         height: 3px;
         background-color: #ff9933;
         margin-top: 45px;
-        width: 300px;
+        width: 255px;
     }
 
     .number-clinic {
@@ -901,6 +909,7 @@ body {
         background-image: url(../assets/img/backgroundctamobile.png);
         background-repeat: no-repeat;
         height: 620px;
+        background-size: cover;
     }
 
     .benefit-line {
@@ -1066,6 +1075,7 @@ body {
 
     .check-up-img {
         width: 100%;
+        height: 334px;
         animation: image 1.5s ease-in-out normal;
     }
 
@@ -1361,7 +1371,6 @@ body {
         font-size: 16px;
         line-height: 24px;
         color: #ffffff;
-        width: 200px;
     }
 
     .feature-line {
@@ -1522,7 +1531,7 @@ body {
 
     .image-clinic {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 
     .clinic-block {
@@ -1533,6 +1542,7 @@ body {
     .check-up-img {
         width: 100%;
         animation: image .75s ease-in-out normal;
+        height: 734px;
     }
 
     @keyframes image {
@@ -1749,6 +1759,7 @@ body {
         margin-top: 160px;
         background-image: url(../assets/img/backgroundcta.png);
         background-repeat: no-repeat;
+        background-size: cover;
         height: 620px;
     }
 
@@ -1881,7 +1892,6 @@ body {
     .feature-line-pc {
         background-color: #FFFFFF;
         width: 2px;
-        margin-right: 30px;
 
 
     }
@@ -2282,5 +2292,12 @@ body {
     }
     #mouse-scroll{
         display: none;
+    }
+    .p-description{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
     }
 }
